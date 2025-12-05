@@ -1,0 +1,39 @@
+# Environment and credentials
+.env
+.env.*
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Lighthouse reports (generated)
+lighthouse-report.*
+
+# Playwright test results
+test-results/
+playwright-report/
+*.txt
