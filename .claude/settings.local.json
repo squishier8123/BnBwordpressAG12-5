@@ -28,7 +28,14 @@
       "Bash(xargs:*)",
       "WebFetch(domain:beardsandbucks.com)",
       "Bash(awk:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(git config:*)",
+      "Bash(ssh-keygen:*)",
+      "Bash(ssh-add:*)",
+      "Bash(sudo npx playwright install-deps:*)",
+      "Bash(cat:*)",
+      "WebSearch",
+      "Bash(node qa_test_comprehensive.js:*)"
     ],
     "deny": [],
     "ask": []

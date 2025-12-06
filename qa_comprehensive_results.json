@@ -1,0 +1,131 @@
+{
+  "timestamp": "2025-12-06T23:24:00.435Z",
+  "siteScore": 88,
+  "categories": {
+    "accessibility": {
+      "score": 100,
+      "tests": {
+        "homepageAccessible": true,
+        "DecisionPageAccessible": true,
+        "IndividualListingAccessible": true,
+        "VendorRegistrationAccessible": true
+      }
+    },
+    "performance": {
+      "score": 100,
+      "tests": {
+        "HomepageLoadTime": {
+          "time": 71,
+          "pass": true
+        },
+        "HomepageSize": {
+          "bytes": 205137,
+          "pass": true
+        },
+        "DecisionPageLoadTime": {
+          "time": 56,
+          "pass": true
+        },
+        "DecisionPageSize": {
+          "bytes": 128086,
+          "pass": true
+        },
+        "IndividualListingLoadTime": {
+          "time": 57,
+          "pass": true
+        },
+        "IndividualListingSize": {
+          "bytes": 161305,
+          "pass": true
+        },
+        "VendorRegistrationLoadTime": {
+          "time": 50,
+          "pass": true
+        },
+        "VendorRegistrationSize": {
+          "bytes": 128060,
+          "pass": true
+        }
+      }
+    },
+    "forms": {
+      "score": 100,
+      "tests": {
+        "IndividualListingFormExists": true,
+        "IndividualListingFormHasSubmit": true,
+        "IndividualListingFormHasInputs": true,
+        "IndividualListingFormHasValidation": true,
+        "VendorRegistrationFormExists": true,
+        "VendorRegistrationFormHasSubmit": true,
+        "VendorRegistrationFormHasInputs": true,
+        "VendorRegistrationFormHasValidation": true
+      }
+    },
+    "security": {
+      "score": 43,
+      "tests": {
+        "hasSSL": true,
+        "hasX-CONTENT-TYPE-OPTIONS": false,
+        "hasX-FRAME-OPTIONS": false,
+        "hasX-XSS-PROTECTION": false,
+        "hasCONTENT-SECURITY-POLICY": true,
+        "hasSTRICT-TRANSPORT-SECURITY": false,
+        "minimalInlineScripts": true
+      }
+    },
+    "seo": {
+      "score": 85,
+      "tests": {
+        "HomepageHasMetaDesc": true,
+        "HomepageHasH1": false,
+        "HomepageHasViewport": true,
+        "HomepageHasStructured": true,
+        "HomepageImageAltText": {
+          "coverage": 91.30434782608695,
+          "pass": true
+        },
+        "DecisionPageHasMetaDesc": false,
+        "DecisionPageHasH1": true,
+        "DecisionPageHasViewport": true,
+        "DecisionPageHasStructured": true,
+        "DecisionPageImageAltText": {
+          "coverage": 100,
+          "pass": true
+        },
+        "IndividualListingHasMetaDesc": true,
+        "IndividualListingHasH1": true,
+        "IndividualListingHasViewport": true,
+        "IndividualListingHasStructured": true,
+        "IndividualListingImageAltText": {
+          "coverage": 100,
+          "pass": true
+        },
+        "VendorRegistrationHasMetaDesc": false,
+        "VendorRegistrationHasH1": true,
+        "VendorRegistrationHasViewport": true,
+        "VendorRegistrationHasStructured": true,
+        "VendorRegistrationImageAltText": {
+          "coverage": 100,
+          "pass": true
+        }
+      }
+    },
+    "mobile": {
+      "score": 100,
+      "tests": {
+        "hasViewport": true,
+        "hasResponsiveFramework": true,
+        "hasSufficientTouchTargets": true,
+        "hasClickableElements": true,
+        "noMobileBlockers": true
+      }
+    }
+  },
+  "pages": {},
+  "summary": {
+    "totalTests": 52,
+    "passedTests": 45,
+    "failedTests": 7,
+    "errors": []
+  }
+}
