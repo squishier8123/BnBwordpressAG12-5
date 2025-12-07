@@ -123,14 +123,15 @@
       "Bash(export WP_APP_PASSWORD:*)",
       "Bash(__NEW_LINE__ claude mcp list)",
       "Bash(__NEW_LINE__ cd \"/mnt/c/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5\")",
-      "Bash(export MCP_TIMEOUT=15000)"
+      "Bash(export MCP_TIMEOUT=15000)",
+      "Bash(git rm:*)"
     ],
     "deny": [],
     "ask": []
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "elementor",
     "respira-wordpress"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }
