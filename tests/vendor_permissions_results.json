@@ -1,0 +1,2439 @@
+{
+  "timestamp": "2025-12-07T19:27:37.710Z",
+  "vendorInfo": {
+    "id": 3,
+    "username": "temp_builder",
+    "email": "sdfdksfusdfjn@gmail.com"
+  },
+  "tests": [
+    {
+      "name": "Vendor User Info & Capabilities",
+      "endpoint": "/wp-json/wp/v2/users/3",
+      "status": 200,
+      "success": true,
+      "findings": {
+        "username": "temp_builder",
+        "email": "sdfdksfusdfjn@gmail.com",
+        "roles": [
+          "administrator"
+        ],
+        "capabilities": {
+          "switch_themes": true,
+          "edit_themes": true,
+          "activate_plugins": true,
+          "edit_plugins": true,
+          "edit_users": true,
+          "edit_files": true,
+          "manage_options": true,
+          "moderate_comments": true,
+          "manage_categories": true,
+          "manage_links": true,
+          "upload_files": true,
+          "import": true,
+          "unfiltered_html": true,
+          "edit_posts": true,
+          "edit_others_posts": true,
+          "edit_published_posts": true,
+          "publish_posts": true,
+          "edit_pages": true,
+          "read": true,
+          "level_10": true,
+          "level_9": true,
+          "level_8": true,
+          "level_7": true,
+          "level_6": true,
+          "level_5": true,
+          "level_4": true,
+          "level_3": true,
+          "level_2": true,
+          "level_1": true,
+          "level_0": true,
+          "edit_others_pages": true,
+          "edit_published_pages": true,
+          "publish_pages": true,
+          "delete_pages": true,
+          "delete_others_pages": true,
+          "delete_published_pages": true,
+          "delete_posts": true,
+          "delete_others_posts": true,
+          "delete_published_posts": true,
+          "delete_private_posts": true,
+          "edit_private_posts": true,
+          "read_private_posts": true,
+          "delete_private_pages": true,
+          "edit_private_pages": true,
+          "read_private_pages": true,
+          "delete_users": true,
+          "create_users": true,
+          "unfiltered_upload": true,
+          "edit_dashboard": true,
+          "update_plugins": true,
+          "delete_plugins": true,
+          "install_plugins": true,
+          "update_themes": true,
+          "install_themes": true,
+          "update_core": true,
+          "list_users": true,
+          "remove_users": true,
+          "promote_users": true,
+          "edit_theme_options": true,
+          "delete_themes": true,
+          "export": true,
+          "aioseo_manage_seo": true,
+          "aioseo_page_advanced_settings": true,
+          "aioseo_page_ai_content_settings": true,
+          "aioseo_page_analysis": true,
+          "aioseo_page_general_settings": true,
+          "aioseo_page_schema_settings": true,
+          "aioseo_page_social_settings": true,
+          "manage_woocommerce": true,
+          "create_customers": true,
+          "view_woocommerce_reports": true,
+          "edit_product": true,
+          "read_product": true,
+          "delete_product": true,
+          "edit_products": true,
+          "edit_others_products": true,
+          "publish_products": true,
+          "read_private_products": true,
+          "delete_products": true,
+          "delete_private_products": true,
+          "delete_published_products": true,
+          "delete_others_products": true,
+          "edit_private_products": true,
+          "edit_published_products": true,
+          "manage_product_terms": true,
+          "edit_product_terms": true,
+          "delete_product_terms": true,
+          "assign_product_terms": true,
+          "edit_shop_order": true,
+          "read_shop_order": true,
+          "delete_shop_order": true,
+          "edit_shop_orders": true,
+          "edit_others_shop_orders": true,
+          "publish_shop_orders": true,
+          "read_private_shop_orders": true,
+          "delete_shop_orders": true,
+          "delete_private_shop_orders": true,
+          "delete_published_shop_orders": true,
+          "delete_others_shop_orders": true,
+          "edit_private_shop_orders": true,
+          "edit_published_shop_orders": true,
+          "manage_shop_order_terms": true,
+          "edit_shop_order_terms": true,
+          "delete_shop_order_terms": true,
+          "assign_shop_order_terms": true,
+          "edit_shop_coupon": true,
+          "read_shop_coupon": true,
+          "delete_shop_coupon": true,
+          "edit_shop_coupons": true,
+          "edit_others_shop_coupons": true,
+          "publish_shop_coupons": true,
+          "read_private_shop_coupons": true,
+          "delete_shop_coupons": true,
+          "delete_private_shop_coupons": true,
+          "delete_published_shop_coupons": true,
+          "delete_others_shop_coupons": true,
+          "edit_private_shop_coupons": true,
+          "edit_published_shop_coupons": true,
+          "manage_shop_coupon_terms": true,
+          "edit_shop_coupon_terms": true,
+          "delete_shop_coupon_terms": true,
+          "assign_shop_coupon_terms": true,
+          "mailpoet_access_plugin_admin": true,
+          "mailpoet_manage_settings": true,
+          "mailpoet_manage_features": true,
+          "mailpoet_manage_emails": true,
+          "mailpoet_manage_subscribers": true,
+          "mailpoet_manage_forms": true,
+          "mailpoet_manage_segments": true,
+          "mailpoet_manage_automations": true,
+          "mailpoet_manage_help": true,
+          "manage_rtcl_options": true,
+          "manage_rtcl_reports": true,
+          "manage_rtcl_store": true,
+          "add_rtcl_listing": true,
+          "edit_rtcl_listing": true,
+          "read_rtcl_listing": true,
+          "delete_rtcl_listing": true,
+          "edit_rtcl_listings": true,
+          "edit_others_rtcl_listings": true,
+          "publish_rtcl_listings": true,
+          "read_private_rtcl_listings": true,
+          "delete_rtcl_listings": true,
+          "delete_private_rtcl_listings": true,
+          "delete_published_rtcl_listings": true,
+          "delete_others_rtcl_listings": true,
+          "edit_private_rtcl_listings": true,
+          "edit_published_rtcl_listings": true,
+          "add_rtcl_pricing": true,
+          "edit_rtcl_pricing": true,
+          "read_rtcl_pricing": true,
+          "delete_rtcl_pricing": true,
+          "edit_rtcl_pricings": true,
+          "edit_others_rtcl_pricings": true,
+          "publish_rtcl_pricings": true,
+          "read_private_rtcl_pricings": true,
+          "delete_rtcl_pricings": true,
+          "delete_private_rtcl_pricings": true,
+          "delete_published_rtcl_pricings": true,
+          "delete_others_rtcl_pricings": true,
+          "edit_private_rtcl_pricings": true,
+          "edit_published_rtcl_pricings": true,
+          "add_rtcl_payment": true,
+          "edit_rtcl_payment": true,
+          "read_rtcl_payment": true,
+          "delete_rtcl_payment": true,
+          "edit_rtcl_payments": true,
+          "edit_others_rtcl_payments": true,
+          "publish_rtcl_payments": true,
+          "read_private_rtcl_payments": true,
+          "delete_rtcl_payments": true,
+          "delete_private_rtcl_payments": true,
+          "delete_published_rtcl_payments": true,
+          "delete_others_rtcl_payments": true,
+          "edit_private_rtcl_payments": true,
+          "edit_published_rtcl_payments": true,
+          "use_angie": true,
+          "create_notes_elementor-pro": true,
+          "edit_notes_elementor-pro": true,
+          "delete_notes_elementor-pro": true,
+          "read_notes_elementor-pro": true,
+          "edit_others_notes_elementor-pro": true,
+          "delete_others_notes_elementor-pro": true,
+          "read_others_private_notes_elementor-pro": true,
+          "bcn_manage_options": true,
+          "manage_listings": true,
+          "edit_listing": true,
+          "read_listing": true,
+          "delete_listing": true,
+          "edit_listings": true,
+          "edit_others_listings": true,
+          "publish_listings": true,
+          "read_private_listings": true,
+          "delete_listings": true,
+          "delete_private_listings": true,
+          "delete_published_listings": true,
+          "delete_others_listings": true,
+          "edit_private_listings": true,
+          "edit_published_listings": true,
+          "manage_listing_terms": true,
+          "edit_listing_terms": true,
+          "delete_listing_terms": true,
+          "assign_listing_terms": true,
+          "dokandar": true,
+          "dokan_view_sales_overview": true,
+          "dokan_view_sales_report_chart": true,
+          "dokan_view_announcement": true,
+          "dokan_view_order_report": true,
+          "dokan_view_review_reports": true,
+          "dokan_view_product_status_report": true,
+          "dokan_view_overview_report": true,
+          "dokan_view_daily_sale_report": true,
+          "dokan_view_top_selling_report": true,
+          "dokan_view_top_earning_report": true,
+          "dokan_view_statement_report": true,
+          "dokan_view_order": true,
+          "dokan_manage_order": true,
+          "dokan_manage_order_note": true,
+          "dokan_manage_refund": true,
+          "dokan_export_order": true,
+          "dokan_add_coupon": true,
+          "dokan_edit_coupon": true,
+          "dokan_delete_coupon": true,
+          "dokan_view_reviews": true,
+          "dokan_manage_reviews": true,
+          "dokan_manage_withdraw": true,
+          "dokan_add_product": true,
+          "dokan_edit_product": true,
+          "dokan_delete_product": true,
+          "dokan_view_product": true,
+          "dokan_duplicate_product": true,
+          "dokan_import_product": true,
+          "dokan_export_product": true,
+          "dokan_view_overview_menu": true,
+          "dokan_view_product_menu": true,
+          "dokan_view_order_menu": true,
+          "dokan_view_coupon_menu": true,
+          "dokan_view_report_menu": true,
+          "dokan_view_review_menu": true,
+          "dokan_view_withdraw_menu": true,
+          "dokan_view_store_settings_menu": true,
+          "dokan_view_store_payment_menu": true,
+          "dokan_view_store_shipping_menu": true,
+          "dokan_view_store_social_menu": true,
+          "dokan_view_store_seo_menu": true,
+          "administrator": true
+        },
+        "hasSeller": false,
+        "hasDokanManageProduct": false,
+        "hasManageWooCommerce": true,
+        "hasEditProducts": true,
+        "hasPublishProducts": true
+      }
+    },
+    {
+      "name": "Vendor Dashboard Access",
+      "endpoint": "/wp-json/dokan/v1/stores",
+      "status": 200,
+      "success": true,
+      "findings": {
+        "totalStores": 2,
+        "vendorFound": true,
+        "vendorStoreData": {
+          "id": 3,
+          "store_name": "",
+          "first_name": "",
+          "last_name": "",
+          "email": "sdfdksfusdfjn@gmail.com",
+          "social": {
+            "fb": "",
+            "twitter": "",
+            "pinterest": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "instagram": "",
+            "flickr": "",
+            "threads": ""
+          },
+          "phone": "",
+          "show_email": false,
+          "address": {
+            "street_1": "",
+            "street_2": "",
+            "city": "",
+            "zip": "",
+            "country": "",
+            "state": ""
+          },
+          "location": "",
+          "banner": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/default-store-banner.png",
+          "banner_id": 0,
+          "gravatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+          "gravatar_id": 0,
+          "shop_url": "https://beardsandbucks.com/store/temp_builder/",
+          "toc_enabled": false,
+          "store_toc": "",
+          "featured": false,
+          "rating": {
+            "rating": "0.00",
+            "count": 0
+          },
+          "enabled": false,
+          "registered": "2025-11-24 11:33:12",
+          "payment": {
+            "paypal": [
+              "email"
+            ],
+            "bank": []
+          },
+          "trusted": false,
+          "reset_sub_category": true,
+          "store_open_close": {
+            "enabled": false,
+            "time": [],
+            "open_notice": "Store is open",
+            "close_notice": "Store is closed"
+          },
+          "admin_category_commission": [],
+          "admin_commission": "",
+          "admin_additional_fee": "",
+          "admin_commission_type": "percentage",
+          "_links": {
+            "self": [
+              {
+                "href": "https://beardsandbucks.com/wp-json/dokan/v1/stores/3",
+                "targetHints": {
+                  "allow": [
+                    "GET",
+                    "DELETE",
+                    "POST",
+                    "PUT",
+                    "PATCH"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://beardsandbucks.com/wp-json/dokan/v1/stores"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Vendor Store Settings",
+      "endpoint": "/wp-json/dokan/v1/stores/3",
+      "status": 200,
+      "success": true,
+      "findings": {
+        "storeData": {
+          "id": 3,
+          "store_name": "",
+          "first_name": "",
+          "last_name": "",
+          "email": "sdfdksfusdfjn@gmail.com",
+          "social": {
+            "fb": "",
+            "twitter": "",
+            "pinterest": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "instagram": "",
+            "flickr": "",
+            "threads": ""
+          },
+          "phone": "",
+          "show_email": false,
+          "address": {
+            "street_1": "",
+            "street_2": "",
+            "city": "",
+            "zip": "",
+            "country": "",
+            "state": ""
+          },
+          "location": "",
+          "banner": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/default-store-banner.png",
+          "banner_id": 0,
+          "gravatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+          "gravatar_id": 0,
+          "shop_url": "https://beardsandbucks.com/store/temp_builder/",
+          "toc_enabled": false,
+          "store_toc": "",
+          "featured": false,
+          "rating": {
+            "rating": "0.00",
+            "count": 0
+          },
+          "enabled": false,
+          "registered": "2025-11-24 11:33:12",
+          "payment": {
+            "paypal": [
+              "email"
+            ],
+            "bank": []
+          },
+          "trusted": false,
+          "reset_sub_category": true,
+          "store_open_close": {
+            "enabled": false,
+            "time": [],
+            "open_notice": "Store is open",
+            "close_notice": "Store is closed"
+          },
+          "admin_category_commission": [],
+          "admin_commission": "",
+          "admin_additional_fee": "",
+          "admin_commission_type": "percentage",
+          "_links": {
+            "self": [
+              {
+                "href": "https://beardsandbucks.com/wp-json/dokan/v1/stores/3",
+                "targetHints": {
+                  "allow": [
+                    "GET",
+                    "DELETE",
+                    "POST",
+                    "PUT",
+                    "PATCH"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://beardsandbucks.com/wp-json/dokan/v1/stores"
+              }
+            ]
+          }
+        },
+        "storeEnabled": false,
+        "storeName": "Not set",
+        "publishingCapability": "Not set",
+        "trusted": false
+      }
+    },
+    {
+      "name": "Vendor Product Access",
+      "endpoint": "/wp-json/dokan/v1/products?vendor_id=3",
+      "status": 200,
+      "success": true,
+      "findings": {
+        "canAccessProducts": true,
+        "totalProducts": 10,
+        "products": [
+          {
+            "id": 4627,
+            "name": "Listing Package - Premium (Unlimited)",
+            "slug": "listing-package-premium-unlimited",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/product/listing-package-premium-unlimited/",
+            "date_created": "2025-12-01T15:52:59",
+            "date_created_gmt": "2025-12-01T15:52:59",
+            "date_modified": "2025-12-01T15:52:59",
+            "date_modified_gmt": "2025-12-01T15:52:59",
+            "type": "simple",
+            "status": "publish",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>$49 plan: Unlimited listings for 180 days + featured</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "49.00",
+            "regular_price": "49.00",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>49.00</bdi></span>",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4461,
+              4475,
+              4473,
+              4474,
+              4625
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16888,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16906,
+                "key": "_listeo_package_count",
+                "value": "9999"
+              },
+              {
+                "id": 16907,
+                "key": "_listeo_package_duration",
+                "value": "180"
+              },
+              {
+                "id": 16908,
+                "key": "_listeo_featured",
+                "value": "yes"
+              },
+              {
+                "id": 16909,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              },
+              {
+                "id": 16962,
+                "key": "_listing_views_count",
+                "value": "1"
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4627&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4627&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/product/listing-package-premium-unlimited/",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4627",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4625,
+            "name": "Listing Package - Free (1 Listing)",
+            "slug": "listing-package-free-1-listing",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/product/listing-package-free-1-listing/",
+            "date_created": "2025-12-01T15:52:58",
+            "date_created_gmt": "2025-12-01T15:52:58",
+            "date_modified": "2025-12-01T15:52:58",
+            "date_modified_gmt": "2025-12-01T15:52:58",
+            "type": "simple",
+            "status": "publish",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>Free plan: 1 active listing for 30 days</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>0.00</bdi></span>",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4475,
+              4626,
+              4473,
+              4474,
+              4627
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16844,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16862,
+                "key": "_listeo_package_count",
+                "value": "1"
+              },
+              {
+                "id": 16863,
+                "key": "_listeo_package_duration",
+                "value": "30"
+              },
+              {
+                "id": 16864,
+                "key": "_listeo_featured",
+                "value": "no"
+              },
+              {
+                "id": 16865,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              },
+              {
+                "id": 16963,
+                "key": "_listing_views_count",
+                "value": "2"
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4625&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4625&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/product/listing-package-free-1-listing/",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4625",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4626,
+            "name": "Listing Package - Standard (5 Listings)",
+            "slug": "listing-package-standard-5-listings",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/product/listing-package-standard-5-listings/",
+            "date_created": "2025-12-01T15:52:58",
+            "date_created_gmt": "2025-12-01T15:52:58",
+            "date_modified": "2025-12-01T15:52:58",
+            "date_modified_gmt": "2025-12-01T15:52:58",
+            "type": "simple",
+            "status": "publish",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>$15 plan: 5 active listings for 90 days + featured</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "15.00",
+            "regular_price": "15.00",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>15.00</bdi></span>",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": 0,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4625,
+              4627,
+              4474,
+              4461,
+              4473
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16866,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16884,
+                "key": "_listeo_package_count",
+                "value": "5"
+              },
+              {
+                "id": 16885,
+                "key": "_listeo_package_duration",
+                "value": "90"
+              },
+              {
+                "id": 16886,
+                "key": "_listeo_featured",
+                "value": "yes"
+              },
+              {
+                "id": 16887,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              },
+              {
+                "id": 16961,
+                "key": "_listing_views_count",
+                "value": "1"
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4626&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4626&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/product/listing-package-standard-5-listings/",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4626",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4614,
+            "name": "Premium Tier",
+            "slug": "",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/?post_type=product&p=4614",
+            "date_created": null,
+            "date_created_gmt": null,
+            "date_modified": "2025-11-30T05:05:46",
+            "date_modified_gmt": "2025-11-30T05:05:46",
+            "type": "simple",
+            "status": "draft",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>Premium package. Unlimited listings, 1804949 days each, featured placement.</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "",
+            "regular_price": "",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": "0",
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4475,
+              4473,
+              4461,
+              4625,
+              4626
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16613,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16616,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4614&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4614&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/?post_type=product&p=4614",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4614",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4613,
+            "name": "Standard Tier",
+            "slug": "",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/?post_type=product&p=4613",
+            "date_created": null,
+            "date_created_gmt": null,
+            "date_modified": "2025-11-30T05:02:53",
+            "date_modified_gmt": "2025-11-30T05:02:53",
+            "type": "simple",
+            "status": "draft",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>Standard package. Up to 5 listings, 90 d15ays each, featured placement.</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "",
+            "regular_price": "",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": "0",
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4475,
+              4473,
+              4474,
+              4461,
+              4625
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16610,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16617,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4613&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4613&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/?post_type=product&p=4613",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4613",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4612,
+            "name": "Free Tier",
+            "slug": "",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/?post_type=product&p=4612",
+            "date_created": null,
+            "date_created_gmt": null,
+            "date_modified": "2025-11-30T05:01:05",
+            "date_modified_gmt": "2025-11-30T05:01:05",
+            "type": "simple",
+            "status": "draft",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>0</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "",
+            "regular_price": "",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": "0",
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4625,
+              4475,
+              4627,
+              4474,
+              4626
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16607,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16618,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4612&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4612&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/?post_type=product&p=4612",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4612",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4610,
+            "name": "Standard Tier",
+            "slug": "",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/?post_type=product&p=4610",
+            "date_created": null,
+            "date_created_gmt": null,
+            "date_modified": "2025-11-29T19:43:31",
+            "date_modified_gmt": "2025-11-29T19:43:31",
+            "type": "simple",
+            "status": "draft",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>Standard listing package. 5 listings, 90 days duration, featured listings.</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "",
+            "regular_price": "",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": "0",
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4473,
+              4474,
+              4627,
+              4626,
+              4461
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16601,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16606,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4610&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4610&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/?post_type=product&p=4610",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4610",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4607,
+            "name": "Free Tier",
+            "slug": "",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/?post_type=product&p=4607",
+            "date_created": null,
+            "date_created_gmt": null,
+            "date_modified": "2025-11-29T19:03:09",
+            "date_modified_gmt": "2025-11-29T19:03:09",
+            "type": "simple",
+            "status": "draft",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "<p>Basic listing package. Single listing, 30 days duration.</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "",
+            "regular_price": "",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": "0",
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4461,
+              4474,
+              4625,
+              4473,
+              4475
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16592,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16599,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4607&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4607&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/?post_type=product&p=4607",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4607",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4606,
+            "name": "Free TierBasic listing package. Single listing, 30 days duration.",
+            "slug": "",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/?post_type=product&p=4606",
+            "date_created": null,
+            "date_created_gmt": null,
+            "date_modified": "2025-11-29T18:25:26",
+            "date_modified_gmt": "2025-11-29T18:25:26",
+            "type": "simple",
+            "status": "draft",
+            "featured": false,
+            "catalog_visibility": "visible",
+            "description": "",
+            "short_description": "",
+            "sku": "",
+            "price": "",
+            "regular_price": "",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": "0",
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": false,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": true,
+            "shipping_taxable": true,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4475,
+              4473,
+              4625,
+              4461,
+              4626
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16589,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16600,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4606&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4606&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/?post_type=product&p=4606",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4606",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4547,
+            "name": "Reverse Withdrawal Payment",
+            "slug": "reverse-withdrawal-payment",
+            "post_author": "1",
+            "permalink": "https://beardsandbucks.com/product/reverse-withdrawal-payment/",
+            "date_created": "2025-11-27T09:14:48",
+            "date_created_gmt": "2025-11-27T09:14:48",
+            "date_modified": "2025-11-27T09:14:48",
+            "date_modified_gmt": "2025-11-27T09:14:48",
+            "type": "simple",
+            "status": "publish",
+            "featured": false,
+            "catalog_visibility": "hidden",
+            "description": "<p>This is Dokan reverse withdrawal payment product, do not delete.</p>\n",
+            "short_description": "",
+            "sku": "",
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>0.00</bdi></span>",
+            "on_sale": false,
+            "purchasable": false,
+            "total_sales": 0,
+            "virtual": true,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": -1,
+            "download_expiry": -1,
+            "external_url": "",
+            "button_text": "",
+            "tax_status": "none",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "low_stock_amount": "",
+            "in_stock": true,
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "sold_individually": true,
+            "weight": "",
+            "dimensions": {
+              "length": "",
+              "width": "",
+              "height": ""
+            },
+            "shipping_required": false,
+            "shipping_taxable": false,
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "reviews_allowed": true,
+            "average_rating": "0.00",
+            "rating_count": 0,
+            "related_ids": [
+              4475,
+              4625,
+              4626,
+              4627,
+              4461
+            ],
+            "upsell_ids": [],
+            "cross_sell_ids": [],
+            "parent_id": 0,
+            "purchase_note": "",
+            "categories": [
+              {
+                "id": 27,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+              }
+            ],
+            "tags": [],
+            "images": [
+              {
+                "id": 0,
+                "date_created": "2025-12-07T19:27:40",
+                "date_created_gmt": "2025-12-07T19:27:40",
+                "date_modified": "2025-12-07T19:27:40",
+                "date_modified_gmt": "2025-12-07T19:27:40",
+                "src": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "name": "Placeholder",
+                "alt": "Placeholder",
+                "position": 0
+              }
+            ],
+            "attributes": [],
+            "default_attributes": [],
+            "variations": [],
+            "grouped_products": [],
+            "menu_order": 0,
+            "meta_data": [
+              {
+                "id": 16049,
+                "key": "listeo-avg-rating",
+                "value": "0"
+              },
+              {
+                "id": 16386,
+                "key": "chosen_product_cat",
+                "value": [
+                  27
+                ]
+              }
+            ],
+            "store": {
+              "id": 1,
+              "name": "",
+              "url": "https://beardsandbucks.com/store/jeff/",
+              "avatar": "https://beardsandbucks.com/wp-content/plugins/dokan-lite/assets/images/mystery-person.jpg",
+              "address": {
+                "street_1": "",
+                "street_2": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
+              }
+            },
+            "row_actions": {
+              "edit": {
+                "title": "Edit",
+                "url": "?product_id=4547&action=edit&_dokan_edit_product_nonce=8f8a0a0cb4",
+                "class": "edit"
+              },
+              "delete": {
+                "title": "Delete Permanently",
+                "url": "?action=dokan-delete-product&amp;product_id=4547&amp;_wpnonce=d9554369a4",
+                "class": "delete",
+                "other": "onclick=\"dokan_show_delete_prompt( event, 'Are you sure?' );\""
+              },
+              "view": {
+                "title": "View",
+                "url": "https://beardsandbucks.com/product/reverse-withdrawal-payment/",
+                "class": "view"
+              }
+            },
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products/4547",
+                  "targetHints": {
+                    "allow": [
+                      "GET",
+                      "POST",
+                      "PUT",
+                      "PATCH",
+                      "DELETE"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/products"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "WooCommerce Product Access",
+      "endpoint": "/wp-json/wc/v3/products?author=3",
+      "status": 200,
+      "success": true,
+      "findings": {
+        "canAccessWCProducts": true,
+        "totalProducts": 10,
+        "productList": [
+          {
+            "id": 4627,
+            "name": "Listing Package - Premium (Unlimited)",
+            "status": "publish",
+            "price": "49.00"
+          },
+          {
+            "id": 4625,
+            "name": "Listing Package - Free (1 Listing)",
+            "status": "publish",
+            "price": "0"
+          },
+          {
+            "id": 4626,
+            "name": "Listing Package - Standard (5 Listings)",
+            "status": "publish",
+            "price": "15.00"
+          },
+          {
+            "id": 4614,
+            "name": "Premium Tier",
+            "status": "draft",
+            "price": ""
+          },
+          {
+            "id": 4613,
+            "name": "Standard Tier",
+            "status": "draft",
+            "price": ""
+          },
+          {
+            "id": 4612,
+            "name": "Free Tier",
+            "status": "draft",
+            "price": ""
+          },
+          {
+            "id": 4610,
+            "name": "Standard Tier",
+            "status": "draft",
+            "price": ""
+          },
+          {
+            "id": 4607,
+            "name": "Free Tier",
+            "status": "draft",
+            "price": ""
+          },
+          {
+            "id": 4606,
+            "name": "Free TierBasic listing package. Single listing, 30 days duration.",
+            "status": "draft",
+            "price": ""
+          },
+          {
+            "id": 4547,
+            "name": "Reverse Withdrawal Payment",
+            "status": "publish",
+            "price": "0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vendor Order Access",
+      "endpoint": "/wp-json/dokan/v1/orders",
+      "status": 200,
+      "success": true,
+      "findings": {
+        "canAccessOrders": true,
+        "totalOrders": 1,
+        "orderData": [
+          {
+            "id": 4644,
+            "parent_id": 0,
+            "number": "4644",
+            "order_key": "wc_order_NoJNiom4Ep9VR",
+            "created_via": "rest-api",
+            "version": "10.3.5",
+            "status": "pending",
+            "currency": "USD",
+            "date_created": "2025-12-02T03:33:40",
+            "date_created_gmt": "2025-12-02T03:33:40",
+            "date_modified": "2025-12-02T03:33:40",
+            "date_modified_gmt": "2025-12-02T03:33:40",
+            "discount_total": "0.00",
+            "discount_tax": "0.00",
+            "shipping_total": "0.00",
+            "shipping_tax": "0.00",
+            "cart_tax": "0.00",
+            "total": "15.00",
+            "total_tax": "0.00",
+            "prices_include_tax": false,
+            "customer_id": 4,
+            "customer_ip_address": "",
+            "customer_user_agent": "",
+            "customer_note": "",
+            "billing": {
+              "first_name": "Test",
+              "last_name": "Buyer",
+              "company": "",
+              "address_1": "",
+              "address_2": "",
+              "city": "",
+              "state": "",
+              "postcode": "",
+              "country": "",
+              "email": "testbuyer@example.com",
+              "phone": "555-1234"
+            },
+            "shipping": {
+              "first_name": "",
+              "last_name": "",
+              "company": "",
+              "address_1": "",
+              "address_2": "",
+              "city": "",
+              "state": "",
+              "postcode": "",
+              "country": "",
+              "phone": ""
+            },
+            "payment_method": "stripe",
+            "payment_method_title": "Stripe",
+            "transaction_id": "",
+            "date_paid": null,
+            "date_paid_gmt": null,
+            "date_completed": null,
+            "date_completed_gmt": null,
+            "cart_hash": "",
+            "meta_data": [
+              {
+                "id": 1,
+                "key": "_billing_address_index",
+                "value": "Test Buyer        testbuyer@example.com 555-1234"
+              },
+              {
+                "id": 2,
+                "key": "_shipping_address_index",
+                "value": "         555-1234"
+              },
+              {
+                "id": 7,
+                "key": "_dokan_vendor_id",
+                "value": "1"
+              },
+              {
+                "id": 3,
+                "key": "shipping_fee_recipient",
+                "value": "seller"
+              },
+              {
+                "id": 5,
+                "key": "shipping_tax_fee_recipient",
+                "value": "seller"
+              },
+              {
+                "id": 6,
+                "key": "shipping_tax_fee_recipient",
+                "value": "seller"
+              },
+              {
+                "id": 4,
+                "key": "tax_fee_recipient",
+                "value": "seller"
+              }
+            ],
+            "line_items": [
+              {
+                "id": 1,
+                "name": "Listing Package - Standard (5 Listings)",
+                "product_id": 4626,
+                "variation_id": 0,
+                "quantity": 1,
+                "tax_class": "",
+                "subtotal": "15.00",
+                "subtotal_tax": "0.00",
+                "total": "15.00",
+                "total_tax": "0.00",
+                "taxes": [],
+                "meta_data": [
+                  {
+                    "id": 10,
+                    "key": "_dokan_commission_source",
+                    "value": "default"
+                  },
+                  {
+                    "id": 11,
+                    "key": "_dokan_commission_rate",
+                    "value": "0"
+                  },
+                  {
+                    "id": 12,
+                    "key": "_dokan_commission_type",
+                    "value": "fixed"
+                  },
+                  {
+                    "id": 13,
+                    "key": "_dokan_additional_fee",
+                    "value": "0"
+                  },
+                  {
+                    "id": 14,
+                    "key": "dokan_commission_meta",
+                    "value": []
+                  }
+                ],
+                "sku": "",
+                "image": "https://beardsandbucks.com/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+                "price": 15
+              }
+            ],
+            "tax_lines": [],
+            "shipping_lines": [],
+            "fee_lines": [],
+            "coupon_lines": [],
+            "refunds": [],
+            "order_shipment": "--",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1//4644"
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/"
+                }
+              ],
+              "customer": [
+                {
+                  "href": "https://beardsandbucks.com/wp-json/dokan/v1/customers/4"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vendor Analytics Access",
+      "endpoint": "/wp-json/dokan/v1/reports/summary",
+      "status": 404,
+      "success": false,
+      "findings": {
+        "canAccessAnalytics": false,
+        "endpointExists": false
+      }
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "issue": "Vendor does not have \"seller\" role",
+      "fix": "Add \"seller\" role to user via WordPress admin or WP-CLI: wp user add-role 3 seller"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "Vendor lacks \"dokan_manage_product\" capability",
+      "fix": "This capability should be granted automatically with seller role. Check Dokan settings."
+    },
+    {
+      "priority": "HIGH",
+      "issue": "Vendor store is disabled",
+      "fix": "Enable the vendor store via Dokan > Vendors > Edit Vendor > Enable Selling"
+    }
+  ]
+}

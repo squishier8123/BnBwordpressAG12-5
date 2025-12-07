@@ -124,7 +124,8 @@
       "Bash(__NEW_LINE__ claude mcp list)",
       "Bash(__NEW_LINE__ cd \"/mnt/c/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5\")",
       "Bash(export MCP_TIMEOUT=15000)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []
