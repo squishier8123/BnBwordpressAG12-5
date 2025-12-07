@@ -1,0 +1,108 @@
+{
+  "elements": [
+    {
+      "id": "section1",
+      "type": "section",
+      "settings": {
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "col1",
+          "type": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "heading1",
+              "type": "heading",
+              "settings": {
+                "title": "Browse by County",
+                "heading_size": "h2",
+                "title_color": "#333D29",
+                "align": "center"
+              }
+            },
+            {
+              "id": "text1",
+              "type": "text-editor",
+              "settings": {
+                "editor": "Find outfitters, lodging, and services in your target hunting area",
+                "text_color": "#6B7280",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section2",
+      "type": "section",
+      "settings": {
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "col2",
+          "type": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "html1",
+              "type": "html",
+              "settings": {
+                "html": "<div style=\"max-width:1280px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;\"><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Pike County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">23 vendors</p><div style=\"background:rgba(147,102,57,0.1);color:#936639;padding:4px 8px;border-radius:4px;font-size:12px;display:inline-block;\">Premium Area</div></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Adams County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">19 vendors</p><div style=\"background:rgba(147,102,57,0.1);color:#936639;padding:4px 8px;border-radius:4px;font-size:12px;display:inline-block;\">Premium Area</div></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Fulton County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">17 vendors</p><div style=\"background:rgba(147,102,57,0.1);color:#936639;padding:4px 8px;border-radius:4px;font-size:12px;display:inline-block;\">Premium Area</div></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Brown County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">14 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Schuyler County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">12 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">McDonough County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">11 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Hancock County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">10 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Henderson County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">9 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Knox County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">8 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Warren County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">7 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Peoria County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">6 vendors</p></div><div style=\"background:white;padding:24px;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);\"><h4 style=\"color:#333D29;margin:0 0 4px 0;font-weight:600;\">Mason County</h4><p style=\"color:#9CA3AF;margin:0 0 12px 0;\">5 vendors</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section3",
+      "type": "section",
+      "settings": {
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "col3",
+          "type": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "cta",
+              "type": "text-editor",
+              "settings": {
+                "editor": "View All 102 Illinois Counties →",
+                "text_color": "#656D4A",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
