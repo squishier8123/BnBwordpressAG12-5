@@ -41,7 +41,9 @@
       "Bash(claude mcp list:*)",
       "Bash(npx:*)",
       "Bash(claude mcp:*)",
-      "Bash(npm search:*)"
+      "Bash(npm search:*)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []
