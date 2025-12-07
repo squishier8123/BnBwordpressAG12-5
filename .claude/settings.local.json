@@ -125,7 +125,8 @@
       "Bash(__NEW_LINE__ cd \"/mnt/c/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5\")",
       "Bash(export MCP_TIMEOUT=15000)",
       "Bash(git rm:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(unzip:*)"
     ],
     "deny": [],
     "ask": []
