@@ -2,13 +2,12 @@
   "mcpServers": {
     "elementor": {
       "type": "stdio",
-      "command": "/home/geoff25/.nvm/versions/node/v24.11.1/bin/npx",
+      "command": "npx",
       "args": ["-y", "elementor-mcp"],
       "env": {
         "WP_URL": "https://beardsandbucks.com",
         "WP_APP_USER": "jeff",
-        "WP_APP_PASSWORD": "N0yN G2OM aRKT CZrm hIrq 88jG",
-        "NODE_PATH": "/home/geoff25/.nvm/versions/node/v24.11.1/lib/node_modules"
+        "WP_APP_PASSWORD": "N0yN G2OM aRKT CZrm hIrq 88jG"
       }
     }
   }
