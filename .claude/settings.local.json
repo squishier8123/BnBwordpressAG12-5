@@ -40,7 +40,8 @@
       "Bash(claude mcp add:*)",
       "Bash(claude mcp list:*)",
       "Bash(npx:*)",
-      "Bash(claude mcp:*)"
+      "Bash(claude mcp:*)",
+      "Bash(npm search:*)"
     ],
     "deny": [],
     "ask": []
