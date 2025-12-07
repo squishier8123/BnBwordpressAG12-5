@@ -1,0 +1,325 @@
+/* ============================================================================
+   BEARDS & BUCKS - CUSTOM LISTING CARD CSS OVERRIDE
+   ============================================================================
+   Generated: 2025-12-07
+   Purpose: Brand Listeo listing cards with Beards & Bucks color palette
+   Compatibility: Listeo v2.0.17 (tested on beardsandbucks.com)
+   Method: CSS-only override - no PHP/HTML modifications
+   ============================================================================ */
+
+/* Define CSS Variables for Beards & Bucks Color Palette */
+:root {
+  --bb-primary: #414833;        /* Dark Pine Green - text, accents */
+  --bb-accent: #A4AC86;          /* Sage Green - highlights, active states */
+  --bb-button: #7F4F24;          /* Deep Brown - buttons, overlays */
+  --bb-text: #ffffff;            /* White text on dark backgrounds */
+  --bb-shadow: rgba(65, 72, 51, 0.15);  /* Primary color with transparency */
+}
+
+/* ============================================================================
+   LISTING CARD CONTAINER STYLING
+   ============================================================================ */
+
+/* Main listing item wrapper */
+.listing-item-container {
+  background-color: #ffffff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 6px !important;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.listing-item-container:hover {
+  box-shadow: 0 8px 24px var(--bb-shadow) !important;
+  border-color: var(--bb-accent) !important;
+  transform: translateY(-4px);
+}
+
+/* Listing item card (inner wrapper) */
+.listeo-card {
+  border-radius: 6px !important;
+  overflow: hidden;
+}
+
+.listing-item {
+  border-radius: 6px !important;
+  overflow: hidden;
+}
+
+/* ============================================================================
+   IMAGE & OVERLAY STYLING
+   ============================================================================ */
+
+/* Listing image container */
+.listing-item-image,
+.listing-item .listing-photo-box,
+.listing-photo-box img {
+  border-radius: 6px 6px 0 0 !important;
+  object-fit: cover;
+}
+
+/* Image overlay (for text contrast) */
+.listing-item-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.1) 100%);
+  border-radius: 6px 6px 0 0;
+  pointer-events: none;
+}
+
+/* ============================================================================
+   BADGE & TAG STYLING
+   ============================================================================ */
+
+/* Featured / Verified Badge */
+.listing-item-content span.tag,
+.listing-item-container.list-layout span.tag {
+  background-color: var(--bb-accent) !important;
+  color: var(--bb-primary) !important;
+  border-radius: 4px !important;
+  padding: 4px 12px !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  display: inline-block !important;
+  margin-right: 6px !important;
+  margin-bottom: 8px !important;
+  box-shadow: 0 2px 8px rgba(164, 172, 134, 0.25) !important;
+}
+
+/* Featured badge variant (if using class) */
+.listing-item-content span.tag.featured,
+.listing-tag-featured,
+.badge-featured {
+  background-color: var(--bb-accent) !important;
+  color: var(--bb-primary) !important;
+}
+
+/* Verified badge variant */
+.listing-item-content span.tag.verified,
+.listing-tag-verified,
+.badge-verified {
+  background-color: var(--bb-accent) !important;
+  color: var(--bb-primary) !important;
+}
+
+/* ============================================================================
+   LISTING CONTENT STYLING (Title, Description, Meta)
+   ============================================================================ */
+
+/* Listing title */
+.listing-item-content h3,
+.listing-item-title,
+.listing-item-content h2 {
+  color: var(--bb-primary) !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 1.4 !important;
+  margin-bottom: 8px !important;
+  transition: color 0.2s ease;
+}
+
+.listing-item-content h3:hover,
+.listing-item-title:hover {
+  color: var(--bb-accent) !important;
+}
+
+/* Listing description / excerpt */
+.listing-item-content p,
+.listing-item-content .listing-description,
+.listing-item-content span:not(.tag) {
+  color: #666666 !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  margin: 6px 0 !important;
+}
+
+/* Location / Meta information */
+.listing-item-content .location,
+.listing-item-content .listing-location,
+.listing-item-content .meta-item,
+.listing-item-content .post-meta {
+  color: #888888 !important;
+  font-size: 12px !important;
+}
+
+.listing-item-content .location i,
+.listing-item-content .listing-location i,
+.listing-item-content .meta-item i {
+  color: var(--bb-accent) !important;
+  margin-right: 4px !important;
+}
+
+/* ============================================================================
+   RATING STARS STYLING
+   ============================================================================ */
+
+/* Active rating stars (applies when ratings are enabled) */
+.star-rating .star,
+.listing-item-content .star-rating .fa-star,
+.listing-item-content .fa-star.active {
+  color: var(--bb-accent) !important;
+}
+
+/* Inactive/empty stars */
+.star-rating .fa-star:not(.active),
+.listing-item-content .fa-star:not(.active) {
+  color: #d0d0d0 !important;
+}
+
+/* Rating counter text */
+.rating-counter,
+.listing-item-content .rating-counter {
+  color: var(--bb-primary) !important;
+  font-weight: 600 !important;
+  margin-left: 6px !important;
+}
+
+/* ============================================================================
+   PRICE / RATE DISPLAY STYLING
+   ============================================================================ */
+
+/* Price container overlay (premium styling) */
+.listing-price,
+.listing-item-price,
+.listing-item-content .price,
+.listing-item-content .listing-price {
+  background-color: var(--bb-button) !important;
+  color: var(--bb-text) !important;
+  padding: 8px 12px !important;
+  border-radius: 4px !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  position: relative;
+  display: inline-block !important;
+  box-shadow: 0 4px 12px rgba(127, 79, 36, 0.25) !important;
+}
+
+/* Price rate (per day/month/etc) */
+.listing-price-rate,
+.listing-item-content .price-rate,
+.listing-item-content .listing-price-rate {
+  color: var(--bb-text) !important;
+  font-size: 12px !important;
+  opacity: 0.95 !important;
+}
+
+/* ============================================================================
+   BUTTON & CTA STYLING
+   ============================================================================ */
+
+/* Primary buttons within listing cards */
+.listing-item .button,
+.listing-item-content .button,
+.listing-item-content a.button,
+.listing-item-content button {
+  background-color: var(--bb-button) !important;
+  color: var(--bb-text) !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  transition: all 0.2s ease !important;
+  cursor: pointer !important;
+}
+
+.listing-item .button:hover,
+.listing-item-content .button:hover,
+.listing-item-content a.button:hover,
+.listing-item-content button:hover {
+  background-color: var(--bb-accent) !important;
+  color: var(--bb-primary) !important;
+  box-shadow: 0 4px 12px rgba(164, 172, 134, 0.3) !important;
+}
+
+/* ============================================================================
+   ICON & FEATURE STYLING
+   ============================================================================ */
+
+/* Feature icons */
+.listing-item-content i,
+.listing-item-content .icon,
+.listing-features i {
+  color: var(--bb-accent) !important;
+  transition: color 0.2s ease;
+}
+
+.listing-item:hover .listing-item-content i,
+.listing-item:hover .listing-item-content .icon {
+  color: var(--bb-button) !important;
+}
+
+/* ============================================================================
+   LIST LAYOUT VARIANT (Compact view)
+   ============================================================================ */
+
+/* Compact/List view listing cards */
+.listing-item-container.compact,
+.listing-item-container.list-layout {
+  display: flex !important;
+  align-items: stretch !important;
+  gap: 12px !important;
+  padding: 12px !important;
+}
+
+.listing-item-container.compact .listing-item-image {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 6px !important;
+  flex-shrink: 0 !important;
+}
+
+.listing-item-container.compact .listing-item-content {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+/* ============================================================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================================================ */
+
+@media (max-width: 768px) {
+  .listing-item-content h3,
+  .listing-item-title {
+    font-size: 14px !important;
+  }
+
+  .listing-item-content p,
+  .listing-item-content span:not(.tag) {
+    font-size: 12px !important;
+  }
+
+  .listing-price {
+    font-size: 13px !important;
+  }
+}
+
+/* ============================================================================
+   ACCESSIBILITY & FOCUS STATES
+   ============================================================================ */
+
+/* Focus visible for keyboard navigation */
+.listing-item-container:focus-within {
+  outline: 2px solid var(--bb-accent) !important;
+  outline-offset: 2px !important;
+}
+
+.listing-item a:focus-visible {
+  outline: 2px solid var(--bb-accent) !important;
+  outline-offset: 2px !important;
+}
+
+/* ============================================================================
+   END OF CUSTOM LISTING CARD CSS
+   ============================================================================ */
