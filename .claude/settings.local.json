@@ -111,7 +111,8 @@
       "mcp__elementor__download_page_to_file",
       "mcp__elementor__update_page",
       "mcp__elementor__update_page_from_file",
-      "mcp__elementor__delete_page"
+      "mcp__elementor__delete_page",
+      "Bash(tree:*)"
     ],
     "deny": [],
     "ask": []
