@@ -36,6 +36,7 @@ This project contains comprehensive audit findings and implementation guides to 
 
 | Document | Purpose | Location |
 |----------|---------|----------|
+| WordPress MCP Debugging Report | Complete analysis of MCP issues and fixes | `docs/WORDPRESS_MCP_DEBUGGING_REPORT_2025_12_06.md` |
 | Execution Brief | Quick reference of what changed | `02_IMPLEMENTATION/ANTIGRAVITY_EXECUTION_BRIEF.md` |
 | Fix Implementation | 7-step guide for Antigravity | `02_IMPLEMENTATION/ANTIGRAVITY_FIX_IMPLEMENTATION_REVISED.md` |
 | Audit Report | Initial findings and root causes | `01_AUDIT_FINDINGS/audit_report_2025_12_05.md` |
@@ -82,12 +83,50 @@ Font configuration should be done via Theme File Editor (CSS), not Customizer. D
 ### File Path Issues
 All paths in documentation are absolute from the project root. If using different environment, adjust paths accordingly.
 
+## WordPress Site Editing
+
+### Current Site Configuration
+- **URL**: https://beardsandbucks.com
+- **Page Builder**: Custom HTML/CSS (no Elementor/Divi)
+- **Design Flexibility**: Maximum (⭐⭐⭐⭐⭐)
+- **Total Pages**: 27 active pages
+- **Design Approach**: Inline-styled HTML divs with custom CSS
+
+### How to Edit Pages
+**Two Methods Available:**
+
+1. **WordPress REST API (Recommended)** ✅
+   - Direct HTTP requests via curl
+   - Full control over HTML/CSS
+   - Reliable and battle-tested
+   - See: `docs/WORDPRESS_MCP_DEBUGGING_REPORT_2025_12_06.md`
+
+2. **WordPress MCP (with patch)**
+   - Requires running patch script first
+   - Integrated with Claude Code tools
+   - Requires applying fix to new package instances
+   - See: `mcp-server-wordpress/patch-respira.sh`
+
+### Available Pages for Editing
+See `docs/WORDPRESS_MCP_DEBUGGING_REPORT_2025_12_06.md` for complete page list including:
+- Why Choose Beards & Bucks (ID: 4664)
+- Popular Categories (ID: 4663)
+- How It Works (ID: 4662)
+- About Us (ID: 4619)
+- And 23 more...
+
+### MCP Status
+- **WordPress MCP**: ✅ Fixed (patch available)
+- **Elementor MCP**: N/A (site doesn't use Elementor)
+- **Patch Location**: `mcp-server-wordpress/patch-respira.sh`
+
 ## Status
 
 - Audit: ✅ Complete
 - Implementation Guide: ✅ Ready
 - Fixes (Automated): 🔄 In Progress
-- Regression Test: ⏳ Pending
+- MCP Debugging: ✅ Complete & Fixed
+- WordPress Editing: ✅ Ready (REST API or patched MCP)
 
 ## References
 
@@ -97,6 +136,6 @@ All paths in documentation are absolute from the project root. If using differen
 
 ---
 
-**Last Updated**: 2025-12-05
-**Author**: Antigravity (Google Cloud Browser Automation)
-**Status**: Ready for execution
+**Last Updated**: 2025-12-06
+**Authors**: Antigravity (Google Cloud Browser Automation) + Claude Code MCP Debugging
+**Status**: MCP Fixed & Ready for WordPress Site Editing
