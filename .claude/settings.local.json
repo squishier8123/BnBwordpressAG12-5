@@ -35,7 +35,12 @@
       "Bash(sudo npx playwright install-deps:*)",
       "Bash(cat:*)",
       "WebSearch",
-      "Bash(node qa_test_comprehensive.js:*)"
+      "Bash(node qa_test_comprehensive.js:*)",
+      "Bash(export WP_SITES_PATH=\"$HOME/.wordpress/wp-sites.json\")",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp list:*)",
+      "Bash(npx:*)",
+      "Bash(claude mcp:*)"
     ],
     "deny": [],
     "ask": []
