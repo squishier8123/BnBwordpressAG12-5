@@ -112,9 +112,25 @@
       "mcp__elementor__update_page",
       "mcp__elementor__update_page_from_file",
       "mcp__elementor__delete_page",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(__NEW_LINE__ ls -la \"/mnt/c/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5/.claude/\")",
+      "Bash(__NEW_LINE__ find ~/.claude -name *mcp* -o -name *server*)",
+      "Bash(__NEW_LINE__ claude --help)",
+      "Bash(__NEW_LINE__ find \"/mnt/c/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5\" -maxdepth 2 -name \".claude.json\")",
+      "Bash(__NEW_LINE__ export MCP_TIMEOUT=15000)",
+      "Bash(export WP_URL=\"https://beardsandbucks.com\")",
+      "Bash(export WP_APP_USER=\"jeff\")",
+      "Bash(export WP_APP_PASSWORD:*)",
+      "Bash(__NEW_LINE__ claude mcp list)",
+      "Bash(__NEW_LINE__ cd \"/mnt/c/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5\")",
+      "Bash(export MCP_TIMEOUT=15000)"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enabledMcpjsonServers": [
+    "elementor",
+    "respira-wordpress"
+  ],
+  "enableAllProjectMcpServers": true
 }

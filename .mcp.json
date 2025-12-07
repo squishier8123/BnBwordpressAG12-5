@@ -7,7 +7,16 @@
       "env": {
         "WP_URL": "https://beardsandbucks.com",
         "WP_APP_USER": "jeff",
-        "WP_APP_PASSWORD": "N0yN G2OM aRKT CZrm hIrq 88jG"
+        "WP_APP_PASSWORD": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JlYXJkc2FuZGJ1Y2tzLmNvbSIsImlhdCI6MTc2NTEyNDA1OCwiZXhwIjoxNzY1MjEwNDU4LCJ1c2VyX2lkIjoxLCJqdGkiOiJCUUROZktoektqY1ZkWkNlMGp3ZVJGZk0zMW10MDczYiJ9.DQglAtBz74VAwyMzXZf5hWNfTbfi-mIe7yt7uO26qdw"
+      }
+    },
+    "respira-wordpress": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@respira/wordpress-mcp-server"],
+      "env": {
+        "RESPIRA_SITE_URL": "https://beardsandbucks.com",
+        "RESPIRA_API_KEY": "respira_0000072904d7bea5071f20ea88448665-1765125431146"
       }
     }
   }
