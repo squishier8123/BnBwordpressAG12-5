@@ -249,6 +249,14 @@ nav.main-navigation,
   box-shadow: var(--bb-shadow-md) !important;
 }
 
+/* Sticky header - ensure proper color when pinned */
+#header.cloned,
+.sticky-header #header,
+#header.sticky {
+  background-color: var(--bb-dark-green) !important;
+  box-shadow: var(--bb-shadow-md) !important;
+}
+
 header a,
 #header a,
 nav.main-navigation a,
@@ -257,10 +265,22 @@ nav.main-navigation a,
   transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
+/* Sticky header navigation links */
+#header.cloned a,
+.sticky-header #header a,
+#header.sticky a,
+#header.cloned #navigation a,
+#header.cloned nav.main-navigation a {
+  color: var(--bb-cream) !important;
+}
+
 header a:hover,
 #header a:hover,
 nav.main-navigation a:hover,
-#navigation a:hover {
+#navigation a:hover,
+#header.cloned a:hover,
+.sticky-header #header a:hover,
+#header.sticky a:hover {
   color: var(--bb-sage-light) !important;
   text-shadow: 0 0 8px rgba(164, 172, 134, 0.3);
 }
@@ -426,6 +446,23 @@ footer a:hover,
 .site-footer a:hover {
   color: var(--bb-cream) !important;
   text-shadow: 0 0 8px rgba(164, 172, 134, 0.3);
+}
+
+/* Hide Listeo branding and logos */
+.listeo-footer-logo,
+.listeo-logo,
+.theme-credit,
+.theme-credit-text,
+.powered-by-listeo,
+footer .listeo-branding,
+.footer .listeo-branding,
+.site-footer .listeo-branding,
+#footer .listeo-branding,
+a[href*="listeo"],
+a[href*="theme-provider"],
+.footer-credit-listeo,
+.footer-logo-container {
+  display: none !important;
 }
 
 /* ============================================================================
