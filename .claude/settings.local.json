@@ -128,7 +128,9 @@
       "Bash(node:*)",
       "Bash(unzip:*)",
       "mcp__respira-wordpress__wordpress_list_pages",
-      "mcp__respira-wordpress__wordpress_read_page"
+      "mcp__respira-wordpress__wordpress_read_page",
+      "Bash(export WP_PASSWORD=\"N0yN G2OM aRKT CZrm hIrq 88jG\")",
+      "Bash(mcp__elementor__get_page 4370)"
     ],
     "deny": [],
     "ask": []
