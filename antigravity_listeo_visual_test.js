@@ -36,7 +36,7 @@ async function verifyListeoPages() {
   console.log(`\nScreenshots directory: ${SCREENSHOTS_DIR}\n`);
 
   const browser = await chromium.launch({ headless: true });
-  const context = await browser.createBrowserContext();
+  const context = await browser.newContext();
   const page = await context.newPage();
 
   // Set viewport for consistent screenshots
@@ -71,8 +71,8 @@ async function verifyListeoPages() {
       const hasListeoContent = await page.evaluate(() => {
         const bodyText = document.body.innerText.toLowerCase();
         return bodyText.includes('listeo') || bodyText.includes('dashboard') ||
-               bodyText.includes('message') || bodyText.includes('booking') ||
-               bodyText.length > 1000; // Or has substantial content
+          bodyText.includes('message') || bodyText.includes('booking') ||
+          bodyText.length > 1000; // Or has substantial content
       });
 
       console.log(`Result: ✅ PASS (Content present: ${hasListeoContent})`);
