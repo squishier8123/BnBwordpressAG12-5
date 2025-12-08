@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-06T23:00:33.202Z",
+  "timestamp": "2025-12-08T18:34:54.524Z",
   "homepage": {
     "accessible": true,
     "status": 200,
     "hasAddListingCTA": true,
     "hasNav": true,
     "hasFooter": true,
-    "htmlLength": 205112
+    "htmlLength": 213745
   },
   "pages": {
     "decision": {

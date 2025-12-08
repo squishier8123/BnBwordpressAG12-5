@@ -83,7 +83,7 @@ section.et_pb_section,
    ============================================================================ */
 
 .card,
-.listing-item-container,
+.vendor-item-container,
 .product-card,
 .feature-card,
 .elementor-widget-container,
@@ -91,7 +91,8 @@ section.et_pb_section,
 .et_pb_testimonial,
 .et_pb_pricing,
 div[class*="card"],
-div[class*="box"] {
+div[class*="box"],
+.listing-item-container {
   background-color: var(--bb-white) !important;
   border: 1px solid #e8e8e8 !important;
   border-radius: 8px !important;
@@ -102,13 +103,14 @@ div[class*="box"] {
 
 /* Card hover effects - lift and glow */
 .card:hover,
-.listing-item-container:hover,
+.vendor-item-container:hover,
 .product-card:hover,
 .feature-card:hover,
 .et_pb_blurb:hover,
 .et_pb_testimonial:hover,
 .et_pb_pricing:hover,
-div[class*="card"]:hover {
+div[class*="card"]:hover,
+.listing-item-container:hover {
   box-shadow: var(--bb-shadow-lg) !important;
   border-color: var(--bb-sage-light) !important;
   transform: translateY(-6px) !important;
@@ -116,14 +118,16 @@ div[class*="card"]:hover {
 
 /* Card interactive elements */
 .card,
-.listing-item-container,
-.product-card {
+.vendor-item-container,
+.product-card,
+.listing-item-container {
   position: relative;
 }
 
 .card::before,
-.listing-item-container::before,
-.product-card::before {
+.vendor-item-container::before,
+.product-card::before,
+.listing-item-container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -138,8 +142,9 @@ div[class*="card"]:hover {
 }
 
 .card:hover::before,
-.listing-item-container:hover::before,
-.product-card:hover::before {
+.vendor-item-container:hover::before,
+.product-card:hover::before,
+.listing-item-container:hover::before {
   opacity: 1;
 }
 
@@ -372,9 +377,10 @@ textarea::placeholder {
    ============================================================================ */
 
 .price,
-.listing-price,
+.vendor-price,
 .product-price,
-.rate-display {
+.rate-display,
+.listing-price {
   background: linear-gradient(135deg, var(--bb-deep-brown) 0%, var(--bb-rich-brown) 100%) !important;
   color: var(--bb-cream) !important;
   padding: 8px 16px !important;
@@ -386,6 +392,7 @@ textarea::placeholder {
 }
 
 .price:hover,
+.vendor-price:hover,
 .listing-price:hover {
   box-shadow: var(--bb-shadow-xl), var(--bb-glow) !important;
   transform: scale(1.05);
@@ -551,8 +558,9 @@ body.loading * {
 
 @media (max-width: 768px) {
   .card,
-  .listing-item-container,
-  .product-card {
+  .vendor-item-container,
+  .product-card,
+  .listing-item-container {
     margin-bottom: 16px;
   }
 
