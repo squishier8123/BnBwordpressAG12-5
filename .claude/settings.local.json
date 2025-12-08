@@ -126,7 +126,9 @@
       "Bash(export MCP_TIMEOUT=15000)",
       "Bash(git rm:*)",
       "Bash(node:*)",
-      "Bash(unzip:*)"
+      "Bash(unzip:*)",
+      "mcp__respira-wordpress__wordpress_list_pages",
+      "mcp__respira-wordpress__wordpress_read_page"
     ],
     "deny": [],
     "ask": []
