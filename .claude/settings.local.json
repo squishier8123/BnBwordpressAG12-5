@@ -138,9 +138,8 @@
     "deny": [],
     "ask": []
   },
-  "enableAllProjectMcpServers": true,
+  "enableAllProjectMcpServers": false,
   "enabledMcpjsonServers": [
-    "elementor",
-    "respira-wordpress"
+    "elementor"
   ]
 }
