@@ -241,6 +241,716 @@
             }
         }
 
+        /* Section 3: How It Works */
+        .how-it-works-section {
+            padding: 80px 50px;
+            background-color: #f5f5f5;
+            width: 100%;
+        }
+
+        .how-it-works-section h2 {
+            text-align: center;
+            font-size: 42px;
+            color: #582F0E;
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+
+        .steps-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 20px;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            position: relative;
+        }
+
+        .step-icon {
+            font-size: 56px;
+            color: #414833;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+        }
+
+        .step h4 {
+            font-size: 24px;
+            color: #582F0E;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .step-text {
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+            line-height: 1.5;
+            max-width: 150px;
+        }
+
+        .arrow-connector {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #936639;
+            margin-top: 50px;
+            user-select: none;
+        }
+
+        .steps-row-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* Section 4: Key Features */
+        .key-features-section {
+            padding: 80px 50px;
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+        .key-features-section h2 {
+            text-align: center;
+            font-size: 42px;
+            color: #582F0E;
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+
+        .features-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            width: 30%;
+            min-width: 280px;
+            padding: 30px;
+            border: 2px solid #582F0E;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        /* Unique wobbly border-radius for each card */
+        .feature-card:nth-child(1) {
+            border-radius: 20px 5px 15px 25px;
+        }
+
+        .feature-card:nth-child(2) {
+            border-radius: 8px 18px 12px 22px;
+        }
+
+        .feature-card:nth-child(3) {
+            border-radius: 25px 10px 20px 8px;
+        }
+
+        .feature-card:nth-child(4) {
+            border-radius: 15px 22px 10px 18px;
+        }
+
+        .feature-card:nth-child(5) {
+            border-radius: 18px 12px 25px 5px;
+        }
+
+        .feature-card:nth-child(6) {
+            border-radius: 10px 20px 8px 28px;
+        }
+
+        .feature-card-icon {
+            font-size: 48px;
+            color: #414833;
+            margin-bottom: 10px;
+        }
+
+        .feature-card h4 {
+            font-size: 22px;
+            color: #582F0E;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .feature-card p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        /* Section 5: Social Proof / Testimonials */
+        .social-proof-section {
+            padding: 80px 50px;
+            background-color: #C2C5AA;
+            width: 100%;
+        }
+
+        .social-proof-section h2 {
+            text-align: center;
+            font-size: 42px;
+            color: #582F0E;
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+
+        .testimonials-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .testimonial-card {
+            width: 30%;
+            min-width: 280px;
+            padding: 30px;
+            border: 2px solid #582F0E;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+        }
+
+        /* Wobbly borders for testimonial cards */
+        .testimonial-card:nth-child(1) {
+            border-radius: 255px 15px 225px 25px;
+            transform: rotate(-2deg);
+        }
+
+        .testimonial-card:nth-child(2) {
+            border-radius: 255px 15px 225px 25px;
+            transform: rotate(0deg);
+        }
+
+        .testimonial-card:nth-child(3) {
+            border-radius: 255px 15px 225px 25px;
+            transform: rotate(2deg);
+        }
+
+        .testimonial-text {
+            font-size: 16px;
+            color: #333D29;
+            line-height: 1.6;
+            font-style: italic;
+            margin: 0;
+        }
+
+        .testimonial-name {
+            font-size: 18px;
+            color: #582F0E;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .testimonial-title {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+        }
+
+        /* Section 6: Dual CTA */
+        .dual-cta-section {
+            display: flex;
+            width: 100%;
+            min-height: 500px;
+        }
+
+        .cta-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 40px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            text-align: center;
+        }
+
+        .cta-column::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+        }
+
+        .cta-column-left {
+            background-color: #f0e6d2;
+            background-image: linear-gradient(135deg, #8b6f47 0%, #5a4a2f 100%);
+        }
+
+        .cta-column-left::before {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .cta-column-right {
+            background-color: #3d2108;
+            background-image: linear-gradient(135deg, #6b4c23 0%, #2a1f0f 100%);
+            border-left: 3px solid #ffffff;
+        }
+
+        .cta-column-right::before {
+            background-color: rgba(88, 47, 14, 0.7);
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 400px;
+        }
+
+        .cta-column h2 {
+            font-size: 42px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .cta-column p {
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .cta-button {
+            padding: 16px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button-left {
+            background-color: #414833;
+            color: #ffffff;
+            border-radius: 255px 15px 225px 25px;
+        }
+
+        .cta-button-right {
+            background-color: #ffffff;
+            color: #582F0E;
+            border-radius: 255px 15px 225px 25px;
+        }
+
+        /* Section 7: Featured Listings */
+        .featured-listings-section {
+            padding: 80px 50px;
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+        .featured-listings-section h2 {
+            text-align: center;
+            font-size: 42px;
+            color: #582F0E;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .featured-listings-section .subheading {
+            text-align: center;
+            font-size: 18px;
+            color: #333D29;
+            margin-bottom: 60px;
+            line-height: 1.5;
+        }
+
+        .listings-grid-placeholder {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto 60px;
+        }
+
+        .listing-card-placeholder {
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #e8dcc4 0%, #d4cbb5 100%);
+            border: 2px solid #582F0E;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #582F0E;
+            text-align: center;
+            padding: 20px;
+            font-weight: 600;
+        }
+
+        .view-all-button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+        }
+
+        .view-all-button {
+            padding: 16px 50px;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background-color: transparent;
+            color: #582F0E;
+            border: 2px solid #582F0E;
+            border-radius: 255px 15px 225px 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .view-all-button:hover {
+            background-color: #582F0E;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(88, 47, 14, 0.2);
+        }
+
+        /* Section 8: FAQ */
+        .faq-section {
+            padding: 80px 50px;
+            background-color: #EAE7DC;
+            width: 100%;
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            font-size: 42px;
+            color: #582F0E;
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background-color: #ffffff;
+            border: 2px solid #582F0E;
+            padding: 20px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Unique wobbly border-radius for each FAQ item */
+        .faq-item:nth-child(1) {
+            border-radius: 10px 5px 15px 2px;
+        }
+
+        .faq-item:nth-child(2) {
+            border-radius: 8px 12px 10px 6px;
+        }
+
+        .faq-item:nth-child(3) {
+            border-radius: 12px 4px 8px 14px;
+        }
+
+        .faq-item:nth-child(4) {
+            border-radius: 6px 10px 12px 4px;
+        }
+
+        .faq-item-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #582F0E;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-item-toggle {
+            font-size: 24px;
+            color: #582F0E;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-item-toggle {
+            transform: rotate(180deg);
+        }
+
+        .faq-item-content {
+            display: none;
+            margin-top: 15px;
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .faq-item.active .faq-item-content {
+            display: block;
+        }
+
+        .faq-item.active {
+            background-color: #faf6f1;
+            border-color: #414833;
+        }
+
+        /* Section 9: Footer CTA */
+        .footer-cta-section {
+            padding: 100px 50px;
+            background-color: #582F0E;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .footer-cta-section h2 {
+            font-size: 45px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .footer-cta-section .subheading {
+            font-size: 18px;
+            color: #C2C5AA;
+            margin-bottom: 50px;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+
+        .footer-cta-button {
+            padding: 20px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background-color: #ffffff;
+            color: #582F0E;
+            border: none;
+            border-radius: 255px 15px 225px 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .footer-cta-button:hover {
+            background-color: #C2C5AA;
+            color: #582F0E;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (max-width: 1024px) {
+            .how-it-works-section {
+                padding: 60px 30px;
+            }
+
+            .how-it-works-section h2 {
+                font-size: 36px;
+                margin-bottom: 50px;
+            }
+
+            .steps-container {
+                gap: 15px;
+            }
+
+            .step-icon {
+                width: 70px;
+                height: 70px;
+                font-size: 48px;
+            }
+
+            .step h4 {
+                font-size: 20px;
+            }
+
+            .step-text {
+                font-size: 14px;
+            }
+
+            .arrow-connector {
+                font-size: 32px;
+                margin-top: 40px;
+            }
+
+            .key-features-section {
+                padding: 60px 30px;
+            }
+
+            .key-features-section h2 {
+                font-size: 36px;
+                margin-bottom: 50px;
+            }
+
+            .feature-card {
+                width: calc(50% - 15px);
+            }
+
+            .feature-card-icon {
+                font-size: 40px;
+            }
+
+            .feature-card h4 {
+                font-size: 20px;
+            }
+
+            .feature-card p {
+                font-size: 15px;
+            }
+
+            .social-proof-section {
+                padding: 60px 30px;
+            }
+
+            .social-proof-section h2 {
+                font-size: 36px;
+                margin-bottom: 50px;
+            }
+
+            .testimonial-card {
+                width: calc(50% - 15px);
+            }
+
+            .testimonial-text {
+                font-size: 15px;
+            }
+
+            .testimonial-name {
+                font-size: 16px;
+            }
+
+            .dual-cta-section {
+                min-height: 400px;
+            }
+
+            .cta-column {
+                padding: 50px 30px;
+            }
+
+            .cta-column h2 {
+                font-size: 36px;
+                margin-bottom: 15px;
+            }
+
+            .cta-column p {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+
+            .cta-button {
+                padding: 14px 30px;
+                font-size: 16px;
+            }
+
+            .featured-listings-section {
+                padding: 60px 30px;
+            }
+
+            .featured-listings-section h2 {
+                font-size: 36px;
+                margin-bottom: 15px;
+            }
+
+            .featured-listings-section .subheading {
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+
+            .listings-grid-placeholder {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+
+            .view-all-button {
+                padding: 14px 40px;
+                font-size: 16px;
+            }
+
+            .faq-section {
+                padding: 60px 30px;
+            }
+
+            .faq-section h2 {
+                font-size: 36px;
+                margin-bottom: 50px;
+            }
+
+            .faq-item {
+                padding: 18px;
+                margin-bottom: 12px;
+            }
+
+            .faq-item-title {
+                font-size: 16px;
+            }
+
+            .faq-item-content {
+                font-size: 15px;
+                margin-top: 12px;
+            }
+
+            .footer-cta-section {
+                padding: 80px 30px;
+            }
+
+            .footer-cta-section h2 {
+                font-size: 36px;
+                margin-bottom: 15px;
+            }
+
+            .footer-cta-section .subheading {
+                font-size: 16px;
+                margin-bottom: 40px;
+            }
+
+            .footer-cta-button {
+                padding: 16px 32px;
+                font-size: 16px;
+            }
+        }
+
         @media (max-width: 640px) {
             h1 {
                 font-size: 28px;
@@ -267,8 +977,203 @@
                 width: 140px;
                 height: 140px;
             }
+
+            .how-it-works-section {
+                padding: 40px 20px;
+            }
+
+            .how-it-works-section h2 {
+                font-size: 28px;
+                margin-bottom: 40px;
+            }
+
+            .steps-row-wrapper {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .arrow-connector {
+                transform: rotate(90deg);
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+
+            .step-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 40px;
+            }
+
+            .step h4 {
+                font-size: 18px;
+            }
+
+            .key-features-section {
+                padding: 40px 20px;
+            }
+
+            .key-features-section h2 {
+                font-size: 28px;
+                margin-bottom: 40px;
+            }
+
+            .feature-card {
+                width: 100%;
+                min-width: auto;
+            }
+
+            .feature-card-icon {
+                font-size: 36px;
+            }
+
+            .feature-card h4 {
+                font-size: 18px;
+            }
+
+            .feature-card p {
+                font-size: 14px;
+            }
+
+            .social-proof-section {
+                padding: 40px 20px;
+            }
+
+            .social-proof-section h2 {
+                font-size: 28px;
+                margin-bottom: 40px;
+            }
+
+            .testimonial-card {
+                width: 100%;
+                min-width: auto;
+                transform: rotate(0deg) !important;
+            }
+
+            .testimonial-text {
+                font-size: 14px;
+            }
+
+            .testimonial-name {
+                font-size: 16px;
+            }
+
+            .testimonial-title {
+                font-size: 13px;
+            }
+
+            .dual-cta-section {
+                flex-direction: column;
+                min-height: auto;
+            }
+
+            .cta-column {
+                width: 100% !important;
+                flex: 1;
+                min-height: 350px;
+                padding: 40px 20px;
+            }
+
+            .cta-column-right {
+                border-left: none;
+                border-top: 3px solid #ffffff;
+            }
+
+            .cta-column h2 {
+                font-size: 32px;
+                margin-bottom: 15px;
+            }
+
+            .cta-column p {
+                font-size: 15px;
+                margin-bottom: 25px;
+            }
+
+            .cta-button {
+                padding: 12px 25px;
+                font-size: 15px;
+            }
+
+            .featured-listings-section {
+                padding: 40px 20px;
+            }
+
+            .featured-listings-section h2 {
+                font-size: 28px;
+            }
+
+            .featured-listings-section .subheading {
+                font-size: 15px;
+                margin-bottom: 40px;
+            }
+
+            .listings-grid-placeholder {
+                grid-template-columns: 1fr;
+                gap: 15px;
+                margin-bottom: 40px;
+            }
+
+            .listing-card-placeholder {
+                aspect-ratio: auto;
+                min-height: 200px;
+            }
+
+            .view-all-button {
+                padding: 12px 30px;
+                font-size: 15px;
+            }
+
+            .faq-section {
+                padding: 40px 20px;
+            }
+
+            .faq-section h2 {
+                font-size: 28px;
+                margin-bottom: 40px;
+            }
+
+            .faq-item {
+                padding: 16px;
+                margin-bottom: 10px;
+            }
+
+            .faq-item-title {
+                font-size: 15px;
+            }
+
+            .faq-item-content {
+                font-size: 14px;
+            }
+
+            .footer-cta-section {
+                padding: 60px 20px;
+            }
+
+            .footer-cta-section h2 {
+                font-size: 32px;
+                margin-bottom: 15px;
+            }
+
+            .footer-cta-section .subheading {
+                font-size: 15px;
+                margin-bottom: 35px;
+            }
+
+            .footer-cta-button {
+                padding: 16px 30px;
+                font-size: 15px;
+            }
         }
     </style>
+
+    <!-- FAQ JavaScript for Accordion Functionality -->
+    <script>
+        document.querySelectorAll('.faq-item-title').forEach(title => {
+            title.addEventListener('click', function() {
+                const item = this.closest('.faq-item');
+                item.classList.toggle('active');
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="main-container">
@@ -313,6 +1218,238 @@
             <div class="badge-icon">🔒</div>
             <div class="badge-label">Secure</div>
         </div>
+    </div>
+
+    <!-- Section 3: How It Works -->
+    <div class="how-it-works-section">
+        <h2>How It Works</h2>
+
+        <div class="steps-row-wrapper">
+            <!-- Step 1: Search -->
+            <div class="step">
+                <div class="step-icon">🔍</div>
+                <h4>Search</h4>
+                <p class="step-text">Browse by county, gear type, or species.</p>
+            </div>
+
+            <!-- Arrow 1 -->
+            <div class="arrow-connector">→</div>
+
+            <!-- Step 2: Discover -->
+            <div class="step">
+                <div class="step-icon">🔎</div>
+                <h4>Discover</h4>
+                <p class="step-text">View verified listings & photos.</p>
+            </div>
+
+            <!-- Arrow 2 -->
+            <div class="arrow-connector">→</div>
+
+            <!-- Step 3: Connect -->
+            <div class="step">
+                <div class="step-icon">💬</div>
+                <h4>Connect</h4>
+                <p class="step-text">Message vendors or book instantly.</p>
+            </div>
+
+            <!-- Arrow 3 -->
+            <div class="arrow-connector">→</div>
+
+            <!-- Step 4: Review -->
+            <div class="step">
+                <div class="step-icon">⭐</div>
+                <h4>Review</h4>
+                <p class="step-text">Rate your experience.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: Key Features -->
+    <div class="key-features-section">
+        <h2>Why Hunters Choose Us</h2>
+
+        <div class="features-grid">
+            <!-- Card 1: Search by County -->
+            <div class="feature-card">
+                <div class="feature-card-icon">📍</div>
+                <h4>Search by County</h4>
+                <p>Find leases and public land spots specific to your area.</p>
+            </div>
+
+            <!-- Card 2: Trusted Vendors -->
+            <div class="feature-card">
+                <div class="feature-card-icon">🛡️</div>
+                <h4>Trusted Vendors</h4>
+                <p>All vendors verified and vetted by our community.</p>
+            </div>
+
+            <!-- Card 3: Gear Marketplace -->
+            <div class="feature-card">
+                <div class="feature-card-icon">🛍️</div>
+                <h4>Gear Marketplace</h4>
+                <p>Browse and compare premium hunting gear in one place.</p>
+            </div>
+
+            <!-- Card 4: Booking System -->
+            <div class="feature-card">
+                <div class="feature-card-icon">📅</div>
+                <h4>Booking System</h4>
+                <p>Reserve your hunting trips and outings instantly online.</p>
+            </div>
+
+            <!-- Card 5: Seller Dashboard -->
+            <div class="feature-card">
+                <div class="feature-card-icon">📊</div>
+                <h4>Seller Dashboard</h4>
+                <p>Manage your listings, bookings, and customer interactions.</p>
+            </div>
+
+            <!-- Card 6: Community Reviews -->
+            <div class="feature-card">
+                <div class="feature-card-icon">⭐</div>
+                <h4>Community Reviews</h4>
+                <p>Read authentic reviews from real hunters in your region.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 5: Social Proof / Community Wall -->
+    <div class="social-proof-section">
+        <h2>Join Illinois' Active Hunting Community</h2>
+
+        <div class="testimonials-container">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Finally a place where I can find leases without dealing with scammers. The verification process is legit."</p>
+                <p class="testimonial-name">Mike D.</p>
+                <p class="testimonial-title">Fulton County Hunter</p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Best platform for connecting with local outfitters. The booking system saved me hours of phone calls."</p>
+                <p class="testimonial-name">Sarah M.</p>
+                <p class="testimonial-title">Cook County Enthusiast</p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">"I trust the reviews here because they come from real hunters. Found my favorite gear shop through this network."</p>
+                <p class="testimonial-name">James R.</p>
+                <p class="testimonial-title">DuPage County Guide</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 6: Dual CTA -->
+    <div class="dual-cta-section">
+        <!-- Left Column: For Hunters -->
+        <div class="cta-column cta-column-left">
+            <div class="cta-content">
+                <h2>Start Your Adventure</h2>
+                <p>Browse exclusive leases and verified outfitters.</p>
+                <button class="cta-button cta-button-left">Browse Outfitters</button>
+            </div>
+        </div>
+
+        <!-- Right Column: For Vendors -->
+        <div class="cta-column cta-column-right">
+            <div class="cta-content">
+                <h2>Clean Out Your Locker</h2>
+                <p>Turn your unused gear into cash or list your services.</p>
+                <button class="cta-button cta-button-right">Start Selling</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 7: Featured Listings -->
+    <div class="featured-listings-section">
+        <h2>Fresh from the Field</h2>
+        <p class="subheading">The latest leases, guided hunts, and gear listed by locals.</p>
+
+        <div class="listings-grid-placeholder">
+            <div class="listing-card-placeholder">
+                [listeo_listings layout="grid" limit="6"]<br><br>
+                (Listing 1)
+            </div>
+            <div class="listing-card-placeholder">
+                (Listing 2)
+            </div>
+            <div class="listing-card-placeholder">
+                (Listing 3)
+            </div>
+            <div class="listing-card-placeholder">
+                (Listing 4)
+            </div>
+            <div class="listing-card-placeholder">
+                (Listing 5)
+            </div>
+            <div class="listing-card-placeholder">
+                (Listing 6)
+            </div>
+        </div>
+
+        <div class="view-all-button-container">
+            <button class="view-all-button">View All Listings</button>
+        </div>
+    </div>
+
+    <!-- Section 8: FAQ -->
+    <div class="faq-section">
+        <h2>Common Questions</h2>
+
+        <div class="faq-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+                <div class="faq-item-title">
+                    <span>How do I book a hunt?</span>
+                    <span class="faq-item-toggle">▼</span>
+                </div>
+                <div class="faq-item-content">
+                    <p>Browse available hunts on our platform, check availability, and book directly through the vendor's listing. You'll receive a confirmation email with all the details. No middleman—just you and the outfitter.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+                <div class="faq-item-title">
+                    <span>Is my payment secure?</span>
+                    <span class="faq-item-toggle">▼</span>
+                </div>
+                <div class="faq-item-content">
+                    <p>Yes! All payments are processed through industry-leading secure payment gateways. Your financial information is encrypted and never shared with vendors. We're PCI DSS compliant to keep your data safe.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+                <div class="faq-item-title">
+                    <span>How do I list gear or services?</span>
+                    <span class="faq-item-toggle">▼</span>
+                </div>
+                <div class="faq-item-content">
+                    <p>Sign up as a seller, verify your account, and you'll get instant access to our listing tools. Upload photos, set your prices, and go live. It takes about 5 minutes to list your first item.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+                <div class="faq-item-title">
+                    <span>What makes listings "verified"?</span>
+                    <span class="faq-item-toggle">▼</span>
+                </div>
+                <div class="faq-item-content">
+                    <p>We manually review each vendor and their offerings. Listings are verified through background checks, customer reviews, and direct contact. Think of it as our seal of trust—verified means you can book with confidence.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 9: Footer CTA -->
+    <div class="footer-cta-section">
+        <h2>Ready for your next adventure?</h2>
+        <p class="subheading">Join the #1 hunting community in Illinois today.</p>
+        <button class="footer-cta-button">Create Free Account</button>
     </div>
 </body>
 </html>
