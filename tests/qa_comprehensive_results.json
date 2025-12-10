@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-12-06T23:24:00.435Z",
-  "siteScore": 88,
+  "timestamp": "2025-12-09T03:46:06.508Z",
+  "siteScore": 83,
   "categories": {
     "accessibility": {
       "score": 100,
@@ -15,35 +15,35 @@
       "score": 100,
       "tests": {
         "HomepageLoadTime": {
-          "time": 71,
+          "time": 458,
           "pass": true
         },
         "HomepageSize": {
-          "bytes": 205137,
+          "bytes": 171773,
           "pass": true
         },
         "DecisionPageLoadTime": {
-          "time": 56,
+          "time": 430,
           "pass": true
         },
         "DecisionPageSize": {
-          "bytes": 128086,
+          "bytes": 114727,
           "pass": true
         },
         "IndividualListingLoadTime": {
-          "time": 57,
+          "time": 348,
           "pass": true
         },
         "IndividualListingSize": {
-          "bytes": 161305,
+          "bytes": 133184,
           "pass": true
         },
         "VendorRegistrationLoadTime": {
-          "time": 50,
+          "time": 341,
           "pass": true
         },
         "VendorRegistrationSize": {
-          "bytes": 128060,
+          "bytes": 114715,
           "pass": true
         }
       }
@@ -74,28 +74,28 @@
       }
     },
     "seo": {
-      "score": 85,
+      "score": 55,
       "tests": {
-        "HomepageHasMetaDesc": true,
+        "HomepageHasMetaDesc": false,
         "HomepageHasH1": false,
         "HomepageHasViewport": true,
-        "HomepageHasStructured": true,
+        "HomepageHasStructured": false,
         "HomepageImageAltText": {
-          "coverage": 91.30434782608695,
+          "coverage": 100,
           "pass": true
         },
         "DecisionPageHasMetaDesc": false,
         "DecisionPageHasH1": true,
         "DecisionPageHasViewport": true,
-        "DecisionPageHasStructured": true,
+        "DecisionPageHasStructured": false,
         "DecisionPageImageAltText": {
           "coverage": 100,
           "pass": true
         },
-        "IndividualListingHasMetaDesc": true,
+        "IndividualListingHasMetaDesc": false,
         "IndividualListingHasH1": true,
         "IndividualListingHasViewport": true,
-        "IndividualListingHasStructured": true,
+        "IndividualListingHasStructured": false,
         "IndividualListingImageAltText": {
           "coverage": 100,
           "pass": true
@@ -103,7 +103,7 @@
         "VendorRegistrationHasMetaDesc": false,
         "VendorRegistrationHasH1": true,
         "VendorRegistrationHasViewport": true,
-        "VendorRegistrationHasStructured": true,
+        "VendorRegistrationHasStructured": false,
         "VendorRegistrationImageAltText": {
           "coverage": 100,
           "pass": true
@@ -124,8 +124,8 @@
   "pages": {},
   "summary": {
     "totalTests": 52,
-    "passedTests": 45,
-    "failedTests": 7,
+    "passedTests": 39,
+    "failedTests": 13,
     "errors": []
   }
 }

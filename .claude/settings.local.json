@@ -133,13 +133,15 @@
       "Bash(mcp__elementor__get_page 4370)",
       "Bash(timeout 10 curl:*)",
       "Bash(timeout 15 curl:*)",
-      "Bash(wp:*)"
+      "Bash(wp:*)",
+      "WebFetch(domain:listeo.co)"
     ],
     "deny": [],
     "ask": []
   },
-  "enableAllProjectMcpServers": false,
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
-    "elementor"
+    "elementor",
+    "respira-wordpress"
   ]
 }

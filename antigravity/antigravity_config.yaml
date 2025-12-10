@@ -1,0 +1,239 @@
+# Antigravity Configuration - Beards & Bucks Site Testing
+# This config defines how Antigravity executes the testing workflow
+
+name: "Beards & Bucks Autonomous Testing"
+version: "1.0.0"
+description: "Automated UX testing with 5 intelligent agent personas"
+
+# ============================================================================
+# SITE CONFIGURATION
+# ============================================================================
+site:
+  domain: "https://beardsandbucks.com"
+  name: "Beards & Bucks"
+  description: "Illinois Whitetail Hunting Services & Marketplace"
+  testEnvironment: "production"  # or "staging"
+
+# ============================================================================
+# BROWSER CONFIGURATION
+# ============================================================================
+browser:
+  type: "chromium"  # Playwright browser type
+  headless: false   # Set to true for CI/CD, false for visual testing
+  viewport:
+    width: 1366
+    height: 768
+  screenshots: true
+  screenshotDir: "tests/antigravity_screenshots"
+  videoRecording: false  # Optional: record agent interactions
+
+# ============================================================================
+# AGENT CONFIGURATION
+# ============================================================================
+agents:
+  # Load from external file
+  configFile: "agent_personas.json"
+
+  # Randomization settings
+  randomization:
+    enabled: true
+    seed: null  # Leave null for true randomness, set value to reproduce runs
+    selectionStrategy: "random"  # or "sequential"
+
+  # Execution settings
+  execution:
+    timeout: 900  # seconds (15 minutes per agent)
+    parallelAgents: 1  # Run agents sequentially (1) or in parallel (3+)
+    retryOnTimeout: false
+    maxRetries: 0
+
+# ============================================================================
+# METRICS & SCORING
+# ============================================================================
+scoring:
+  # Scoring rubric (from agent_personas.json)
+  dimensions:
+    discoverability:
+      maxPoints: 20
+      weight: 1.0  # Equal weight
+    performance:
+      maxPoints: 20
+      weight: 1.0
+    design:
+      maxPoints: 15
+      weight: 1.0
+    functionality:
+      maxPoints: 20
+      weight: 1.0
+    content:
+      maxPoints: 15
+      weight: 1.0
+    mobile:
+      maxPoints: 10
+      weight: 1.0
+
+  # Overall scoring
+  maxTotalScore: 100
+  passingScore: 70  # Site is "acceptable" at 70+
+  criticalScore: 90  # Excellence threshold
+
+  # Issue severity thresholds
+  issueSeverity:
+    critical:
+      description: "Blocks user goal completely"
+      scoreImpact: -15
+    major:
+      description: "Significantly hurts UX"
+      scoreImpact: -10
+    minor:
+      description: "Inconvenient but not blocking"
+      scoreImpact: -2
+
+# ============================================================================
+# LOGGING & REPORTING
+# ============================================================================
+logging:
+  level: "info"  # debug, info, warn, error
+  logDir: "tests/antigravity_logs"
+  includeTimestamps: true
+  includeAgentDecisions: true  # Log why agent took each action
+  includeMetrics: true  # Page load times, click counts, etc.
+
+reporting:
+  format: "markdown"  # or "json", "html"
+  outputDir: "tests/antigravity_results"
+  timestamp: true
+  includeScreenshots: true
+  includeSummaryStats: true
+  generateTrendReport: false  # Compare to previous runs
+
+  # Report sections
+  sections:
+    executiveSummary: true
+    individualResults: true
+    criticalIssues: true
+    majorIssues: true
+    minorIssues: true
+    strengths: true
+    recommendations: true
+    technicalDetails: true
+
+# ============================================================================
+# TESTING PATTERNS
+# ============================================================================
+executionPattern: "full"  # Options:
+  # "single" - Run one random agent only
+  # "quick" - Run 2-3 agents for fast feedback
+  # "full" - Run all 5 agents for comprehensive testing
+  # "custom" - Run specific agents (define below)
+
+# For custom pattern, specify agents:
+customAgents:
+  # - "jake_hunter"
+  # - "sarah_vendor"
+  # - "mike_shopper"
+
+# ============================================================================
+# PERFORMANCE THRESHOLDS
+# ============================================================================
+performanceTargets:
+  pageLoadTime: 3000  # milliseconds (should load in 3 seconds)
+  interactionResponseTime: 500  # milliseconds (should respond to clicks quickly)
+  mobilePageLoadTime: 5000  # milliseconds (mobile can be slower)
+
+# ============================================================================
+# CONTENT VALIDATION
+# ============================================================================
+contentValidation:
+  checkBrandColors: true
+  brandColors:
+    - "#414833"  # Primary dark green
+    - "#333D29"  # Dark charcoal
+    - "#656D4A"  # Medium green
+    - "#A4AC86"  # Light green
+    - "#C2C5AA"  # Very light green
+
+  checkMobileResponsive: true
+  mobileBreakpoints:
+    - 375    # iPhone SE
+    - 414    # iPhone 12
+    - 768    # iPad
+    - 1024   # iPad Pro
+
+  checkAccessibility: true  # WCAG compliance
+  checkSEO: true  # Meta tags, headings, etc.
+
+# ============================================================================
+# NOTIFICATIONS & ALERTS
+# ============================================================================
+notifications:
+  enabled: false
+  # When score drops significantly:
+  alertOnScoreDrop: true
+  scoreDrop threshold: 10  # Alert if score drops more than 10 points
+
+  # When critical issues found:
+  alertOnCriticalIssue: true
+
+  # Notification channels:
+  channels:
+    - type: "email"
+      recipients: ["your-email@example.com"]
+    - type: "webhook"
+      url: "https://your-webhook-url.com/antigravity"
+    - type: "slack"
+      webhookUrl: "https://hooks.slack.com/..."
+
+# ============================================================================
+# ADVANCED OPTIONS
+# ============================================================================
+advanced:
+  # Use Claude API for agent decision-making
+  apiProvider: "anthropic"  # or "openai"
+  model: "claude-opus-4-5"
+
+  # Temperature for agent behavior (0.0 = deterministic, 1.0 = creative)
+  agentTemperature: 0.7
+
+  # Enable detailed vision analysis
+  visionAnalysis: true
+
+  # Proxy settings (if needed)
+  proxy: null
+
+  # Cache previous test data for comparison
+  enableCache: true
+  cacheDir: "tests/antigravity_cache"
+
+  # Debug mode (verbose logging, slower execution)
+  debugMode: false
+
+# ============================================================================
+# WORKFLOW HOOKS
+# ============================================================================
+hooks:
+  # Called before test starts
+  onStart: null
+
+  # Called when agent completes
+  onAgentComplete: null
+
+  # Called when critical issue found
+  onCriticalIssue: null
+
+  # Called when test finishes
+  onComplete: null
+
+  # Example:
+  # onComplete: "scripts/post_test_summary.sh"
+
+# ============================================================================
+# END OF CONFIGURATION
+# ============================================================================
+#
+# To run tests with this config:
+# antigravity run --config antigravity_config.yaml
+#
+# To override specific settings:
+# antigravity run --config antigravity_config.yaml --headless=true --pattern=quick
+#

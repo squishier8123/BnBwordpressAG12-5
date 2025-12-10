@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Card Section - Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .preview-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .preview-title {
+            text-align: center;
+            color: #333D29;
+            margin-bottom: 10px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .preview-subtitle {
+            text-align: center;
+            color: #656D4A;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+
+        /* Main Section */
+        .cards-section {
+            background-color: #f5f5f5;
+            padding: 60px 30px;
+            border-radius: 8px;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            width: 100%;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            cursor: pointer;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .card:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .card:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+        }
+
+        .card:hover .card-button {
+            background-color: #936639;
+            box-shadow: 0 4px 12px rgba(127, 79, 36, 0.5);
+            transform: translateY(-2px);
+        }
+
+        /* Floating Animation */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        .card:hover {
+            animation: none;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px 8px 0 0;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 30px 25px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333D29;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .card-description {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #656D4A;
+            margin-bottom: 20px;
+        }
+
+        .card-button {
+            display: inline-block;
+            padding: 12px 30px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #7F4F24;
+            color: #ffffff;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(127, 79, 36, 0.3);
+            width: 100%;
+            text-align: center;
+        }
+
+        .card-button:hover {
+            text-decoration: none;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .cards-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .card-image {
+                height: 240px;
+            }
+
+            .card-title {
+                font-size: 22px;
+            }
+
+            .card-description {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .cards-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .cards-section {
+                padding: 40px 20px;
+            }
+
+            .card-image {
+                height: 220px;
+            }
+
+            .card-content {
+                padding: 25px 20px;
+            }
+
+            .card-title {
+                font-size: 20px;
+            }
+
+            .card-description {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+            .preview-title {
+                font-size: 24px;
+            }
+        }
+
+        /* Info Box */
+        .info-box {
+            background-color: #e8f4f8;
+            border-left: 4px solid #7F4F24;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 4px;
+            color: #333D29;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .info-box strong {
+            color: #333D29;
+        }
+
+        /* Note about images */
+        .image-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #e0e0e0;
+            color: #999;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-container">
+        <h1 class="preview-title">Three Card Section Preview</h1>
+        <p class="preview-subtitle">See how your cards look with animations and hover effects</p>
+
+        <div class="cards-section">
+            <div class="cards-grid">
+                <!-- Card 1: Find Guided Hunts -->
+                <div class="card">
+                    <div class="card-image image-placeholder" style="height: 280px;">
+                        Image 1: Archer with Compound Bow<br>
+                        <small>(Gemini_Generated_Image_7giywk7giywk7giy.png)</small>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Find Guided Hunts</h3>
+                        <p class="card-description">Dial in top-rated hunts from trusted outfitters across Illinois.</p>
+                        <a href="#" class="card-button">Find Hunts</a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Local Vendors -->
+                <div class="card">
+                    <div class="card-image image-placeholder" style="height: 280px;">
+                        Image 2: Archery Equipment on Wall<br>
+                        <small>(Gemini_Generated_Image_530kim530kim530k.png)</small>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Local Vendors</h3>
+                        <p class="card-description">Discover nearby shops and pros to gear up, tune up, and get expert support.</p>
+                        <a href="#" class="card-button">Browse Vendors</a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Buy & Sell Gear -->
+                <div class="card">
+                    <div class="card-image image-placeholder" style="height: 280px;">
+                        Image 3: Retail Store Interior<br>
+                        <small>(Gemini_Generated_Image_530kim530kim530k (1).png)</small>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Buy & Sell Gear</h3>
+                        <p class="card-description">Move your used gear fast, snag quality equipment without retail markup, and yes, you can sell bows here too.</p>
+                        <a href="#" class="card-button">Shop Gear</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <strong>Preview Notes:</strong>
+            <ul style="margin-top: 10px; margin-left: 20px;">
+                <li><strong>Animations:</strong> Cards gently float up and down continuously. Hover over any card to see it lift up with a shadow effect.</li>
+                <li><strong>Button Hover:</strong> Buttons change color from #7F4F24 (brown) to #936639 (darker brown) on hover.</li>
+                <li><strong>Images:</strong> This preview uses placeholders. Your actual images will display once uploaded to WordPress Media.</li>
+                <li><strong>Responsive:</strong> Resize your browser to see how cards stack on mobile (1 column) and tablet (2 columns).</li>
+                <li><strong>To Use:</strong> Import the JSON template into Elementor, upload your 3 images, and update the image URLs.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

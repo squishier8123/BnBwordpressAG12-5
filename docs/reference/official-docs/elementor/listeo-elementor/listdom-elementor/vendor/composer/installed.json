@@ -1,0 +1,35 @@
+{
+    "packages": [
+        {
+            "name": "webilia/listdom-p-elementor",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../../packages/listdom/elementor",
+                "reference": "f311378360f7168888fb1a0b840289cf09a88f19"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "LSDPACELM\\": "app"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Webilia",
+                    "email": "hello@webilia.com"
+                }
+            ],
+            "description": "Listdom Elementor Package",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../webilia/listdom-p-elementor"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

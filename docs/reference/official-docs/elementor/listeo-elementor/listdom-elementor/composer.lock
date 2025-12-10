@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c225e180fdfe01edf336ee46c75155d1",
+    "packages": [
+        {
+            "name": "webilia/listdom-p-elementor",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../../packages/listdom/elementor",
+                "reference": "f311378360f7168888fb1a0b840289cf09a88f19"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LSDPACELM\\": "app"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Webilia",
+                    "email": "hello@webilia.com"
+                }
+            ],
+            "description": "Listdom Elementor Package",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "webilia/listdom-p-elementor": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

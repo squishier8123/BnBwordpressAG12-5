@@ -1,0 +1,2188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Listdom Elementor\n"
+"POT-Creation-Date: 2025-08-16 15:34-0700\n"
+"PO-Revision-Date: 2025-08-16 15:34-0700\n"
+"Last-Translator: Totalery <info@totalery.com>\n"
+"Language-Team: Webilia <info@webilia.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html__;esc_html_e;_x;_ex;esc_attr__;esc_attr_e;esc_attr_x;_n;_nx\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .sass-cache\n"
+
+#: plugin/Hooks.php:33
+msgid "Listdom Elementor"
+msgstr "Listdom Elementor"
+
+#: plugin/Hooks.php:47
+msgid "Settings"
+msgstr "Paramètres"
+
+#: vendor/webilia/listdom-p-elementor/app/Base.php:11
+msgid "HTML file path is empty."
+msgstr "Le fichier HTML est vide."
+
+#: vendor/webilia/listdom-p-elementor/app/Base.php:20
+#, fuzzy
+#| msgid "HTML file is not exists! Check the file path please."
+msgid "HTML file does not exist! Check the file path."
+msgstr "Le fichier HTML n'existe pas ! Veuillez vérifier le chemin du fichier."
+
+#: vendor/webilia/listdom-p-elementor/app/Base.php:57
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:99
+#: vendor/webilia/listdom-p-elementor/html/metabox.php:26
+msgid "Single Listing"
+msgstr "Annonce unique"
+
+#: vendor/webilia/listdom-p-elementor/app/Base.php:58
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:98
+#: vendor/webilia/listdom-p-elementor/html/metabox.php:25
+msgid "Listing Card"
+msgstr "Carte d'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Boot.php:69
+msgid "Listdom Elementor Addon"
+msgstr "Extension Listdom Elementor"
+
+#: vendor/webilia/listdom-p-elementor/app/Conditions/Archive.php:18
+msgid "Listings Archive"
+msgstr "Archive des annonces"
+
+#: vendor/webilia/listdom-p-elementor/app/Conditions/Archive.php:28
+msgid "Any Archive"
+msgstr "N'importe quelle archive"
+
+#: vendor/webilia/listdom-p-elementor/app/Elementor.php:48
+msgid "Listing"
+msgstr "Annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Elementor.php:53
+msgid "Listdom"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Elementor.php:217
+msgid "Listings"
+msgstr "Annonces"
+
+#: vendor/webilia/listdom-p-elementor/app/Menus.php:19
+#: vendor/webilia/listdom-p-elementor/html/form.php:9
+msgid "Elementor Styles"
+msgstr "Styles Elementor"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:41
+msgid "Styles"
+msgstr "Styles"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:42
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:77
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:52
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:119
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:29
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:241
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:64
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:29
+#: vendor/webilia/listdom-p-elementor/app/Widgets/PC.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:121
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:66
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:47
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:67
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:42
+msgid "Style"
+msgstr "Style"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:43
+msgid "Add Style"
+msgstr "Ajouter un style"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:44
+msgid "Add New Style"
+msgstr "Ajouter un nouveau style"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:45
+msgid "Edit Style"
+msgstr "Modifier le style"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:46
+msgid "New Style"
+msgstr "Nouveau style"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:47
+msgid "View Style"
+msgstr "Voir le style"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:48
+msgid "View Styles"
+msgstr "Voir les styles"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:49
+msgid "Search Styles"
+msgstr "Rechercher des styles"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:50
+msgid "No styles found!"
+msgstr "Aucun style trouvé !"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:51
+msgid "No styles found in Trash!"
+msgstr "Aucun style trouvé dans la corbeille !"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:52
+msgid "All Styles"
+msgstr "Tous les styles"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:53
+msgid "Style Archives"
+msgstr "Archives des styles"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:84
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:38
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:38
+msgid "Type"
+msgstr "Type"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:97
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:48
+#: vendor/webilia/listdom-p-elementor/html/metabox.php:27
+msgid "Infowindow"
+msgstr "Infofenêtre"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:105
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:38
+msgid "Style Type"
+msgstr "Type de style"
+
+#: vendor/webilia/listdom-p-elementor/app/PTypes/Details.php:156
+#: vendor/webilia/listdom-p-elementor/html/form.php:6
+msgid "Elementor"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Tags/Datetime.php:17
+msgid "Listing Datetime Fields"
+msgstr "Champs de date et heure de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Tags/Datetime.php:36
+#: vendor/webilia/listdom-p-elementor/app/Tags/Gallery.php:36
+#: vendor/webilia/listdom-p-elementor/app/Tags/Image.php:36
+#: vendor/webilia/listdom-p-elementor/app/Tags/Listing.php:36
+#: vendor/webilia/listdom-p-elementor/app/Tags/Number.php:36
+#: vendor/webilia/listdom-p-elementor/app/Tags/URL.php:36
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:55
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:74
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:195
+msgid "Field"
+msgstr "Champ"
+
+#: vendor/webilia/listdom-p-elementor/app/Tags/Gallery.php:17
+msgid "Listing Gallery Fields"
+msgstr "Champs de galerie de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Tags/Image.php:17
+msgid "Listing Image Fields"
+msgstr "Champs d'image de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Tags/Listing.php:17
+msgid "Listing Fields"
+msgstr "Champs de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Tags/Number.php:17
+msgid "Listing Numeric Fields"
+msgstr "Champs numériques de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Tags/URL.php:17
+msgid "Listing URL Fields"
+msgstr "Champs URL de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets.php:26
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:31
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:31
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:31
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:51
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:33
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:279
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:30
+msgid "Content"
+msgstr "Contenu"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets.php:35
+msgid "No Options"
+msgstr "Aucune option"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:17
+msgid "ACF Addon"
+msgstr "Extension ACF"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:50
+msgid "ACF Fields"
+msgstr "Champs ACF"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:62
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:54
+msgid "Label"
+msgstr "Libellé"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:86
+msgid "Label Typography"
+msgstr "Typographie du libellé"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:94
+msgid "Label Text Color"
+msgstr "Couleur du texte du libellé"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:106
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:378
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:244
+msgid "Value Typography"
+msgstr "Typographie de la valeur"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:114
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:252
+msgid "Value Text Color"
+msgstr "Couleur du texte de la valeur"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/ACF.php:161
+msgid "ACF addon should be installed and activated!"
+msgstr "L'addon ACF doit être installé et activé !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Abuse.php:15
+msgid "Report Abuse"
+msgstr "Signaler un abus"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:17
+msgid "Listing Address"
+msgstr "Adresse de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:38
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:50
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:74
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:123
+msgid "Show Icon"
+msgstr "Afficher l'icône"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:40
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:104
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:84
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:96
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:50
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:213
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:52
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:76
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:400
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:412
+msgid "Show"
+msgstr "Afficher"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:105
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:85
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:97
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:51
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:214
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:53
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:77
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:401
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:413
+msgid "Hide"
+msgstr "Masquer"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:68
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:157
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:88
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:114
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:201
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:230
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:271
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:79
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:160
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:80
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:103
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:305
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:468
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:110
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:487
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:615
+#: vendor/webilia/listdom-p-elementor/app/Widgets/PC.php:46
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:140
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:119
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:149
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:179
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:220
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:277
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:334
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:98
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:232
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:83
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:146
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:176
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:240
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:300
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Address.php:80
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:121
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:125
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:416
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:300
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:288
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:122
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:190
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:232
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:72
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:284
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:206
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Application.php:15
+msgid "Jobs Addon"
+msgstr "Extension Jobs"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Application.php:28
+msgid "Jobs addon should be installed and activated!"
+msgstr "L'extension Jobs doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:18
+msgid "Listing Custom Fields"
+msgstr "Champs personnalisés de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:39
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:52
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:260
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:39
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:30
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:38
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:67
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:255
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:124
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:132
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:39
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:139
+msgid "Layout"
+msgstr "Mise en page"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:43
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:42
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:264
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:289
+msgid "Default"
+msgstr "Par défaut"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:47
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:56
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:268
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:293
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:43
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:45
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:71
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:136
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:45
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:143
+msgid "Inline"
+msgstr "En ligne"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:68
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:189
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:92
+msgid "Fields"
+msgstr "Champs"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:69
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:190
+msgid "Select your desired fields to display"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:82
+msgid "Global Icon"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:84
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:54
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:42
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:108
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:53
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:68
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:83
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:98
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:115
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:131
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:146
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:52
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:64
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:54
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:66
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:120
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:132
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:144
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:68
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:44
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:42
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:54
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:70
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:83
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:99
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:112
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:127
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:141
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:154
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:167
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:180
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:193
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:206
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:230
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:243
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:40
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:52
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:40
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:52
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:64
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:76
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:88
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:100
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:112
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:66
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:110
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:128
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:267
+msgid "Yes"
+msgstr "Oui"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:85
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:55
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:43
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:109
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:54
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:69
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:84
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:99
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:116
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:132
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:147
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:53
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:65
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:55
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:67
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:121
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:133
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:145
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:69
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:45
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:43
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:55
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:71
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:84
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:100
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:113
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:128
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:142
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:155
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:168
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:181
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:194
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:207
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:231
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:244
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:53
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:53
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:65
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:77
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:89
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:101
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:113
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:67
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:109
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:127
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:268
+msgid "No"
+msgstr "Non"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:91
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:112
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:38
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:203
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:60
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:277
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:54
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:558
+msgid "Icon"
+msgstr "Icône"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:102
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:211
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:220
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:392
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:240
+msgid "Name"
+msgstr "Nom"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Attributes.php:125
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:333
+msgid "Icon Scale"
+msgstr "Taille de l'icône"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Auction.php:15
+msgid "Auction Addon"
+msgstr "Extension Enchères"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Auction.php:28
+msgid "Auction addon should be installed and activated!"
+msgstr "L'extension Enchères doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:17
+msgid "Listing Working Hours"
+msgstr "Horaires de travail de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:42
+msgid "One Day"
+msgstr "Un jour"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:43
+msgid "Full Week"
+msgstr "Semaine complète"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:51
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:129
+msgid "Display Icon"
+msgstr "Afficher l'icône"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:70
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:153
+msgid "Text & Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:80
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:184
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:213
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:242
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:222
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:71
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:152
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:190
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:287
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:328
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:433
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:559
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:600
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:641
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:182
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:102
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:85
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:75
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:87
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:215
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:224
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:180
+msgid "Typography"
+msgstr "Typographie"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:99
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:202
+msgid "Off Text Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:136
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:312
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:312
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:363
+msgid "Gap"
+msgstr "Espace"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:163
+msgid "Weekday Typography"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:171
+msgid "Weekday Text Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:183
+msgid "Hour Typography"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:191
+msgid "Hour Text Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:215
+msgid "Gaps"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:224
+msgid "Text Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Availability.php:235
+msgid "Row Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Booking.php:15
+msgid "Booking Addon"
+msgstr "Extension de réservation"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Booking.php:28
+msgid "Booking addon should be installed and activated!"
+msgstr "L'extension Réservation doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:17
+msgid "Listing Breadcrumb"
+msgstr "Fil d'Ariane de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:47
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:193
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:51
+msgid "Category"
+msgstr "Catégorie"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:52
+msgid "Tag"
+msgstr "Étiquette"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:53
+msgid "Location"
+msgstr "Localisation"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:55
+msgid "Feature"
+msgstr "Fonctionnalité"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:66
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:76
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:93
+msgid "General"
+msgstr "Général"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:74
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:227
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:184
+msgid "Item Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:105
+msgid "Home"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:137
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:270
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:390
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:318
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:295
+msgid "Icon Size"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:153
+msgid "Icon & Text Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:222
+msgid "Current"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:252
+msgid "Separator"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Breadcrumb.php:259
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:198
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:190
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:188
+msgid "Color"
+msgstr "Couleur"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:18
+msgid "Listing Categories"
+msgstr "Catégories de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:40
+msgid "Default Colors"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:60
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:47
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:49
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:75
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:140
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:49
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:147
+msgid "Block"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:82
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:398
+msgid "Category Name"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:94
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:410
+msgid "Category Icon"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:106
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:64
+#, fuzzy
+#| msgid "Style Archives"
+msgid "Enable Archive Links"
+msgstr "Archives des styles"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:120
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:88
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:80
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:69
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:78
+msgid "Box"
+msgstr "Boîte"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:129
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:257
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:90
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:171
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:64
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:92
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:288
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:64
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:97
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:211
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:316
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:457
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:89
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:202
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:181
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:129
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:44
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:265
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:37
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:87
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:200
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:91
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:228
+msgid "Background Color"
+msgstr "Couleur d'arrière-plan"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:142
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:325
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:110
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:247
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:102
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:237
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:194
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:100
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:235
+msgid "Border"
+msgstr "Bordure"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:151
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:345
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:121
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:202
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:95
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:255
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:379
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:95
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:119
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:256
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:158
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:234
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:506
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:111
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:246
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:203
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:333
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:627
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:672
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:179
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:75
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:311
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:174
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:60
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:109
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:244
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:466
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:122
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:274
+msgid "Border Radius"
+msgstr "Rayon de bordure"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:163
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:230
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:101
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:182
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:75
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:430
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:235
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:358
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:75
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:131
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:268
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:343
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:486
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:123
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:258
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:134
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:215
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:159
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:55
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:289
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:48
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:121
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:256
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:102
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:252
+msgid "Padding"
+msgstr "Marge interne"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:183
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:151
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:143
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:146
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:141
+msgid "Gap Between Items"
+msgstr "Espacement entre les éléments"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:213
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:181
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:173
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:171
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:397
+msgid "Items"
+msgstr "Éléments"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:285
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:222
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:213
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:211
+msgid "Hover Background Color"
+msgstr "Couleur d'arrière-plan au survol"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:296
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:94
+msgid "Hover Text Color"
+msgstr "Couleur du texte au survol"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:314
+msgid "Border Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Categories.php:376
+msgid "Icon gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Category.php:16
+msgid "Listdom Category"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Category.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Feature.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Label.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Location.php:32
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tag.php:32
+msgid "Clean"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Category.php:33
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Feature.php:33
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Label.php:33
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Location.php:33
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tag.php:33
+msgid "Simple"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Category.php:34
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:184
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:121
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Location.php:34
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:325
+msgid "Image"
+msgstr "Image"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Category.php:35
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:18
+msgid "Claim Button"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:31
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:143
+msgid "After Claim"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:39
+msgid "Text"
+msgstr "Texte"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:234
+msgid "Claimed!"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:48
+msgid "Preview"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:62
+msgid "Before Claim"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Claim.php:227
+msgid "Claim addon should be installed and activated!"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:16
+msgid "Compare Button"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:37
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:37
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:178
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:352
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:105
+msgid "Alignment"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:118
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:179
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:209
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:41
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:182
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:404
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:462
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:519
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:109
+msgid "Left"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:45
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:183
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:213
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:45
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:277
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:186
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:271
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:408
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:466
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:523
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:360
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:113
+msgid "Center"
+msgstr "Centre"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:49
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:122
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:187
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:217
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:49
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:190
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:412
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:470
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:527
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:117
+msgid "Right"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:115
+msgid "Deactivate Icon Color"
+msgstr "Couleur de l'icône désactivée"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:126
+msgid "Active Icon Color"
+msgstr "Couleur de l'icône active"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Compare.php:142
+msgid "Compare addon should be installed and activated!"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:17
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:565
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:211
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:197
+msgid "Contact Info"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:43
+msgid "Custom"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:51
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:152
+msgid "Show Email"
+msgstr "Afficher l'e-mail"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:66
+msgid "Show Phone"
+msgstr "Afficher le téléphone"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:81
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:178
+msgid "Show Website"
+msgstr "Afficher le site web"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:96
+msgid "Show Address"
+msgstr "Afficher l'adresse"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:113
+msgid "Show Socials"
+msgstr "Afficher les réseaux sociaux"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:144
+msgid "Display Label"
+msgstr "Afficher le libellé"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:285
+msgid "Social Icons Layout"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:336
+msgid "Name Color"
+msgstr "Couleur du nom"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:351
+msgid "Name Typography"
+msgstr "Typographie du nom"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:363
+msgid "Value Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Contact.php:456
+msgid "No fields selected."
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:19
+msgid "Listing Content"
+msgstr "Contenu de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:40
+msgid "Content Length"
+msgstr "Longueur du contenu"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:42
+msgid "Length in words"
+msgstr "Longueur en mots"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Content.php:50
+msgid "Auto Paragraph"
+msgstr "Paragraphe automatique"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:18
+msgid "External Direction"
+msgstr "Itinéraire externe"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:39
+msgid "Link Text"
+msgstr "Texte du lien"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:42
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:43
+msgid "Directions"
+msgstr "Itinéraires"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:114
+msgid "Icon Position"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:126
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:149
+msgid "Top"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:130
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:157
+msgid "Bottom"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:145
+msgid "Vertical Alignment"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:153
+msgid "Middle"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:175
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:205
+msgid "Text Alignment"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Direction.php:404
+msgid "Advanced Map addon should be installed and activated!"
+msgstr "L'extension Advanced Map doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Discussion.php:15
+msgid "Listing Review Form"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Discussion.php:28
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:222
+msgid "Review addon should be installed and activated!"
+msgstr "L'extension Avis doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Embeds.php:15
+msgid "Listing Embeds"
+msgstr "Intégrations de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Excerpt.php:15
+msgid "Listing Excerpt"
+msgstr "Extrait de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:16
+msgid "Favorite Button"
+msgstr "Bouton Favori"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:115
+msgid "Heart Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:126
+msgid "Heart Hover Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Favorite.php:142
+msgid "Favorites addon should be installed and activated!"
+msgstr "L'extension Favoris doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Feature.php:16
+msgid "Listdom Feature"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:18
+msgid "Listing Features"
+msgstr "Caractéristiques de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:62
+msgid "Link to Features Archive"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:233
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:224
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:222
+msgid "Hover Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:299
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:83
+msgid "Icon Hover Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Features.php:310
+msgid "Icon Item Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Franchise.php:15
+msgid "Franchise Addon"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Franchise.php:28
+msgid "Franchise addon should be installed and activated!"
+msgstr "L'extension Franchise doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:17
+msgid "Listing Gallery"
+msgstr "Galerie de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:42
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:157
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:46
+msgid "List"
+msgstr "Liste"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:43
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:107
+msgid "Slider"
+msgstr "Curseur"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:44
+msgid "Linear Gallery"
+msgstr "Galerie linéaire"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:52
+msgid "Include Featured Image"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:64
+msgid "Image Lightbox"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:76
+msgid "Number of Images"
+msgstr "Nombre d'images"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:91
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:39
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:55
+msgid "Link Method"
+msgstr "Méthode de lien"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:118
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:130
+msgid "Auto-height"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:142
+msgid "Loop"
+msgstr "Boucle"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:154
+msgid "Thumbnails"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:158
+msgid "On the Image"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:159
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:173
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:52
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:168
+msgid "Navigation Method"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:171
+msgid "Dots"
+msgstr "Points"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:172
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:294
+msgid "Arrows"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:192
+msgid "Image Radius"
+msgstr "Rayon de l'image"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:212
+msgid "Image Height"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:250
+msgid "Image Object Fit"
+msgstr "Ajustement de l'image"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:254
+msgid "Fill"
+msgstr "Remplir"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:255
+msgid "Contain"
+msgstr "Contenir"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:256
+msgid "Cover"
+msgstr "Couverture"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:257
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:155
+msgid "None"
+msgstr "Aucun"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:258
+msgid "Scale Down"
+msgstr "Réduire"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:272
+msgid "Image Align"
+msgstr "Alignement de l'image"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:276
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:267
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:356
+msgid "Start"
+msgstr "Début"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:278
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:275
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:364
+msgid "End"
+msgstr "Fin"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:306
+msgid "Arrow Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:349
+msgid "Arrow Shadow"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Gallery.php:357
+msgid "Arrow Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:18
+msgid "Listing Image"
+msgstr "Image de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:31
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:65
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:569
+msgid "Tags"
+msgstr "Tags"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:58
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:610
+msgid "Working Hours"
+msgstr "Heures d'ouverture"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:59
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:256
+msgid "Labels"
+msgstr "Labels"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:60
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:61
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:297
+msgid "Categories"
+msgstr "Catégories"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:62
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:424
+msgid "Price"
+msgstr "Prix"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:63
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:528
+msgid "Locations"
+msgstr "Lieux"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:64
+msgid "Share"
+msgstr "Partager"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:71
+msgid "Top Left"
+msgstr "En haut à gauche"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:83
+msgid "Top Right"
+msgstr "En haut à droite"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:95
+msgid "Bottom Left"
+msgstr "En bas à gauche"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:107
+msgid "Bottom Right"
+msgstr "En bas à droite"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:139
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:215
+msgid "Width"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:207
+msgid "Owner Image"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:264
+msgid "Labels Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:275
+msgid "Labels Background"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:442
+msgid "Sign Typography"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:536
+msgid "Locations Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:547
+msgid "Locations Background"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:577
+msgid "Tags Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:588
+msgid "Tags Background"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:618
+msgid "Working Hour Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Image.php:629
+msgid "Working Hour Background"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Label.php:16
+msgid "Listdom Label"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:18
+msgid "Listing Labels"
+msgstr "Labels de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Labels.php:66
+msgid "Link to Label Archive"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locallogic.php:15
+msgid "Local Logic Addon"
+msgstr "Extension Logique Locale"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locallogic.php:28
+msgid "Local Logic addon should be installed and activated!"
+msgstr "L'extension Logique Locale doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Location.php:16
+msgid "Listdom Location"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:19
+msgid "Listing Locations"
+msgstr "Emplacements de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:42
+msgid "Link to Location Archive"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Locations.php:172
+msgid "Item"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:16
+msgid "Listing Map"
+msgstr "Carte de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:38
+msgid "Map Provider"
+msgstr "Fournisseur de carte"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:53
+msgid "Enabled"
+msgstr "Activé"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:61
+msgid "Zoom Level"
+msgstr "Niveau de zoom"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Map.php:71
+msgid "Map Height"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:18
+msgid "Listing Owner"
+msgstr "Propriétaire de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:31
+msgid "Owner Details"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:40
+msgid "Show Avatar"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:52
+msgid "Link Avatar to Author Url"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:68
+msgid "Show Name"
+msgstr "Afficher le nom"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:81
+msgid "Author Link"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:97
+msgid "Show Job Title"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:110
+msgid "Show Bio"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:125
+msgid "Show Social Networks"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:139
+msgid "Show Telephone"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:165
+msgid "Show Mobile"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:191
+msgid "Show Fax"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:204
+msgid "Show Form"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:218
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:594
+msgid "Form"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:228
+msgid "Show Name Field"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:241
+msgid "Show Phone Field"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:263
+msgid "Content Alignment"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:291
+msgid "Content Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:353
+msgid "Avatar Width"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:382
+msgid "Image Border"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:400
+msgid "Owner Name Alignment"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:416
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:474
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:531
+msgid "Justify"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:429
+msgid "Owner Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:450
+msgid "Job"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:458
+msgid "Job Title Alignment"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:508
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:325
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:288
+msgid "Bio"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:515
+msgid "Bio Alignment"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:544
+msgid "Bio Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:581
+msgid "Contact Info Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:603
+msgid "Input Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:641
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:265
+msgid "Icons"
+msgstr "Icônes"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:648
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:273
+msgid "Icons Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:660
+msgid "Icons Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:685
+msgid "Items Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Owner.php:715
+msgid "Contact Icon gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/PC.php:17
+msgid "Listing Price Class"
+msgstr "Classe de prix de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:17
+msgid "Listing Price"
+msgstr "Prix de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:38
+msgid "Minimized Price"
+msgstr "Prix réduit"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:50
+msgid "Link Price"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:62
+msgid "Price Link URL"
+msgstr "URL du lien du prix"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:64
+msgid "https://your-link.com"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:101
+msgid "Sign"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Price.php:110
+msgid "Price Description"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:16
+msgid "Listdom Profile"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:35
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:82
+msgid "Container"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:88
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:302
+msgid "Title Text Color"
+msgstr "Couleur du texte du titre"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:110
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:137
+msgid "Author Name"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:140
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:167
+msgid "Job Title"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:170
+msgid "Listing Count"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:243
+msgid "Social Icon Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Profile.php:256
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:219
+msgid "Button"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:17
+msgid "Listing Rate"
+msgstr "Note de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:42
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:122
+msgid "Stars"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:43
+msgid "Summary"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:51
+msgid "Show Review Count"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:112
+msgid "Text Shadow"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:133
+msgid "Stars Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:151
+msgid "Stars Background"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:162
+msgid "Stars Padding"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:192
+msgid "Stars Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Rate.php:204
+msgid "Empty Stars Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Remark.php:15
+msgid "Listing Remark"
+msgstr "Remarque de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:16
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:50
+msgid "Listdom Search"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:34
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:185
+msgid "Search"
+msgstr "Rechercher"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:60
+msgid "Edit Search Form"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:78
+msgid "Content Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:100
+msgid "Content Color"
+msgstr "Couleur du contenu"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:112
+msgid "Input Background"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:126
+msgid "Input Border Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:139
+msgid "Input Border Width"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:152
+msgid "Input Border Style"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:156
+msgid "Solid"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:157
+msgid "Dashed"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:158
+msgid "Dotted"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:159
+msgid "Double"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:171
+msgid "Input Border Radius"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Search.php:200
+msgid "Search Shortcode not found!"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:16
+msgid "Listing Share"
+msgstr "Partage de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:29
+msgid "Main Icon"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:96
+msgid "Sub Icons"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:103
+msgid "Sub Icon Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Share.php:114
+msgid "Sub Icon Hover Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Shortcode.php:16
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Shortcode.php:50
+msgid "Listdom Shortcode"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Shortcode.php:34
+msgid "Shortcode"
+msgstr "Code court"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Shortcode.php:53
+#, php-format
+msgid ""
+"You can create unlimited %s shortcodes in the Listdom => Shortcodes menu and "
+"use them here."
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Shortcode.php:53
+msgid "skin"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Shortcode.php:61
+msgid "Edit Shortcode"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Shortcode.php:75
+msgid "Shortcode not found!"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:17
+msgid "Stats Addon"
+msgstr "Extension Statistiques"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:38
+msgid "Display Zero Values"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:50
+msgid "Display Visits"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:62
+msgid "Display Contacts"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:74
+msgid "Display Offers"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:86
+msgid "Display Bookings"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:98
+msgid "Display Reviews"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:110
+msgid "Display Comments"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:155
+msgid "List Gap"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:324
+msgid "Icon Border Radius"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Stats.php:349
+msgid "Stats addon should be installed and activated!"
+msgstr "L'extension Statistiques doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tag.php:16
+msgid "Listdom Tag"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Tags.php:18
+msgid "Listing Tags"
+msgstr "Tags de l'annonce"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:20
+msgid "Listdom Taxonomies"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:58
+msgid "Columns Count"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:61
+msgid "1 Column"
+msgstr "1 colonne"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:62
+msgid "2 Columns"
+msgstr "2 colonnes"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:63
+msgid "3 Columns"
+msgstr "3 colonnes"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:64
+msgid "4 Columns"
+msgstr "4 colonnes"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:65
+msgid "6 Columns"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:78
+msgid "Maximum Images Per Row"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:93
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:55
+msgid "Limit"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:105
+msgid "Show Count"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:169
+msgid "Query"
+msgstr "Requête"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:178
+msgid "Source"
+msgstr "Source"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:182
+msgid "Show All"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:183
+msgid "Manual Selection"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:184
+msgid "Parent"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:192
+msgid "Select Terms"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:200
+msgid "Select specific terms to display."
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:208
+msgid "Parent ID"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:212
+msgid "Enter the parent category ID. Use \"0\" for top-level categories."
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:223
+msgid "Search Keyword"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:225
+msgid "Enter the keyword to search categories."
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:236
+msgid "Order By"
+msgstr "Trier par"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:241
+msgid "ID"
+msgstr "ID"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:242
+msgid "Count"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:251
+msgid "Order"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:255
+msgid "Ascending"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:256
+msgid "Descending"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:265
+msgid "Hide Empty"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:288
+msgid "Title Typography"
+msgstr "Typographie du titre"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:315
+msgid "Count Typography"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:326
+msgid "Count Text Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:337
+msgid "Box Padding"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:368
+msgid "Space Between"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:372
+msgid "Space Around"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:376
+msgid "Space Evenly"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:405
+msgid "Item Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:420
+msgid "Carousel Item Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:435
+msgid "Item Hover Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:450
+msgid "Carousel Item Hover Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:482
+msgid "Items Padding"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:498
+msgid "Gap Between Title and Count"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:525
+msgid "Gap Between Icon and Content"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:569
+msgid "Term Circle Background Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:580
+msgid "Icon Text Color"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Taxonomies.php:592
+msgid "Icon Box Padding"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Team.php:15
+msgid "Team Addon"
+msgstr "Extension Équipe"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Team.php:28
+msgid "Team addon should be installed and activated!"
+msgstr "L'extension Équipe doit être installée et activée !"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:17
+msgid "Listing Title"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:38
+msgid "Title Tag"
+msgstr "Balise de titre"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:42
+msgid "Heading 1"
+msgstr "Titre 1"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:43
+msgid "Heading 2"
+msgstr "Titre 2"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:44
+msgid "Heading 3"
+msgstr "Titre 3"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:45
+msgid "Heading 4"
+msgstr "Titre 4"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:46
+msgid "Paragraph"
+msgstr "Paragraphe"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Title.php:47
+msgid "Strong"
+msgstr "Gras"
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:16
+msgid "Listdom Users"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:34
+msgid "Users"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:47
+msgid "Grid"
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/app/Widgets/Users.php:66
+msgid "Columns"
+msgstr "Colonnes"
+
+#: vendor/webilia/listdom-p-elementor/html/form.php:9
+#, fuzzy, php-format
+#| msgid "There is no option here. You can design listing pages in %s menu."
+msgid "No options here. Design listing pages from the %s menu."
+msgstr ""
+"Il n'y a pas d'option ici. Vous pouvez concevoir des pages de listing dans "
+"le menu %s."
+
+#: vendor/webilia/listdom-p-elementor/html/metabox.php:24
+#, php-format
+msgid ""
+"If the layout is for search results or grid views, select %s. For single "
+"listing pages, choose %s. For map views, pick %s."
+msgstr ""
+
+#: vendor/webilia/listdom-p-elementor/html/metabox.php:32
+#, fuzzy, php-format
+#| msgid "The %s addon is required in order to design info-windows."
+msgid "The %s addon is required to design info-windows."
+msgstr "L'addon %s est nécessaire pour concevoir des infofenêtres."
+
+#: vendor/webilia/listdom-p-elementor/html/metabox.php:32
+msgid "Listdom Advanced Map"
+msgstr "Listdom Advanced Map"

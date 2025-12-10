@@ -1,0 +1,30 @@
+{
+    "name": "webilia/listdom-elementor",
+    "description": "Listdom Elementor Add-on",
+    "authors": [
+        {
+            "name": "Webilia",
+            "email": "hello@webilia.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../packages/*/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "config": {
+        "platform-check": false
+    },
+    "require": {
+        "webilia/listdom-p-elementor": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "LSDADDELM\\": "plugin"
+        }
+    }
+}

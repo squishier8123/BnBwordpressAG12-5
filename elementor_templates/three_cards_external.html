@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Card Section Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333D29;
+            font-size: 28px;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            cursor: pointer;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .card:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .card:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+            animation: none;
+        }
+
+        .card:hover .btn {
+            background-color: #936639;
+            box-shadow: 0 4px 12px rgba(127, 79, 36, 0.5);
+            transform: translateY(-2px);
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        .img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .content {
+            padding: 30px 25px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333D29;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .desc {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #656D4A;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: block;
+            padding: 12px 30px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #7F4F24;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(127, 79, 36, 0.3);
+            text-align: center;
+        }
+
+        @media (max-width: 1024px) {
+            .cards {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .cards {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .img {
+                height: 220px;
+            }
+
+            .title {
+                font-size: 20px;
+            }
+        }
+
+        .info {
+            background: #e8f4f8;
+            border-left: 4px solid #7F4F24;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 4px;
+            color: #333D29;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .info strong {
+            color: #333D29;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .info ul {
+            margin-left: 20px;
+        }
+
+        .info li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Three Card Section Preview</h1>
+
+        <div class="cards">
+            <div class="card">
+                <img class="img" src="file:///C:/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5/elementor_templates/Gemini_Generated_Image_7giywk7giywk7giy.png" alt="Find Guided Hunts">
+                <div class="content">
+                    <h3 class="title">Find Guided Hunts</h3>
+                    <p class="desc">Dial in top-rated hunts from trusted outfitters across Illinois.</p>
+                    <a href="#" class="btn">Find Hunts</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="img" src="file:///C:/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5/elementor_templates/Gemini_Generated_Image_530kim530kim530k (1).png" alt="Local Vendors">
+                <div class="content">
+                    <h3 class="title">Local Vendors</h3>
+                    <p class="desc">Discover nearby shops and pros to gear up, tune up, and get expert support.</p>
+                    <a href="#" class="btn">Browse Vendors</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="img" src="file:///C:/Users/Geoff/OneDrive/Desktop/Newbeards&Bucks12-5/elementor_templates/Gemini_Generated_Image_530kim530kim530k.png" alt="Buy & Sell Gear">
+                <div class="content">
+                    <h3 class="title">Buy & Sell Gear</h3>
+                    <p class="desc">Move your used gear fast, snag quality equipment without retail markup, and yes, you can sell bows here too.</p>
+                    <a href="#" class="btn">Shop Gear</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <strong>✅ Preview Ready</strong>
+            <ul>
+                <li>Hover over cards to see animations</li>
+                <li>Buttons change color on hover</li>
+                <li>Cards float up/down continuously</li>
+                <li>Fully responsive (resize to test)</li>
+                <li>Ready to upload to your site</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
