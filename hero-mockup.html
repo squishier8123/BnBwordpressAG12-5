@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Illinois' Most Trusted Hunting Network</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 100px 50px;
+            background-image: url('county-map.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .main-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.85);
+            z-index: 0;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            max-width: 1200px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .left-column {
+            flex: 1;
+            min-width: 400px;
+        }
+
+        .right-column {
+            flex: 1;
+            min-width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #582F0E;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .subheading {
+            font-size: 18px;
+            color: #333D29;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .search-container {
+            border: 2px solid #582F0E;
+            border-radius: 255px 15px 225px 25px;
+            padding: 20px;
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        .search-form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .search-input::placeholder {
+            color: #999;
+        }
+
+        .search-button {
+            padding: 12px 30px;
+            background-color: #582F0E;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-button:hover {
+            background-color: #3d2108;
+        }
+
+        .shortcode-note {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            max-width: 450px;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #f0e6d2 0%, #e8dcc4 100%);
+            border-radius: 255px 15px 225px 25px;
+            border: 2px dashed #582F0E;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #582F0E;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Section 2: Value Proposition Badges */
+        .badges-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 60px 50px;
+            background-color: #ffffff;
+            gap: 40px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 180px;
+            height: 180px;
+            border: 3px solid #582F0E;
+            background-color: #faf6f1;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Local Badge - Wobbly */
+        .badge:nth-child(1) {
+            border-radius: 55% 45% 60% 40%;
+        }
+
+        /* Verified Badge - Different wobbly pattern */
+        .badge:nth-child(2) {
+            border-radius: 50% 60% 45% 55%;
+        }
+
+        /* Secure Badge - Another unique wobbly pattern */
+        .badge:nth-child(3) {
+            border-radius: 60% 40% 55% 50%;
+        }
+
+        .badge-icon {
+            font-size: 48px;
+            color: #582F0E;
+            margin-bottom: 10px;
+        }
+
+        .badge-label {
+            font-size: 20px;
+            font-weight: 700;
+            color: #582F0E;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 1024px) {
+            .content-wrapper {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .left-column {
+                min-width: auto;
+            }
+
+            .right-column {
+                min-width: auto;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .main-container {
+                padding: 60px 30px;
+            }
+
+            .badges-section {
+                padding: 40px 30px;
+                gap: 30px;
+            }
+
+            .badge {
+                width: 150px;
+                height: 150px;
+            }
+
+            .badge-icon {
+                font-size: 40px;
+            }
+
+            .badge-label {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            .subheading {
+                font-size: 16px;
+            }
+
+            .search-form {
+                flex-direction: column;
+            }
+
+            .main-container {
+                padding: 40px 20px;
+            }
+
+            .badges-section {
+                padding: 40px 20px;
+                flex-direction: column;
+            }
+
+            .badge {
+                width: 140px;
+                height: 140px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-wrapper">
+            <!-- Left Column: Text & Search -->
+            <div class="left-column">
+                <h1>Explore Illinois' Most Trusted Hunting Network</h1>
+
+                <p class="subheading">Discover verified local outfitters, premium gear shops, and connect with experienced hunters across Illinois. Your next adventure starts here.</p>
+
+                <div class="search-container">
+                    <div class="search-form">
+                        <input type="text" class="search-input" placeholder="Search by location or outfitter name...">
+                        <button class="search-button">Search</button>
+                    </div>
+                    <p class="shortcode-note">Note: [listeo_search_form] shortcode will replace this placeholder on WordPress</p>
+                </div>
+            </div>
+
+            <!-- Right Column: Map Visual -->
+            <div class="right-column">
+                <div class="placeholder-image">
+                    Hand-drawn Illinois State Outline<br>(Placeholder Image)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2: Value Proposition Badges -->
+    <div class="badges-section">
+        <div class="badge">
+            <div class="badge-icon">📍</div>
+            <div class="badge-label">Local</div>
+        </div>
+
+        <div class="badge">
+            <div class="badge-icon">✓</div>
+            <div class="badge-label">Verified</div>
+        </div>
+
+        <div class="badge">
+            <div class="badge-icon">🔒</div>
+            <div class="badge-label">Secure</div>
+        </div>
+    </div>
+</body>
+</html>
