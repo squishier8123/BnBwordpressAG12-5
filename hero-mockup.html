@@ -222,6 +222,38 @@
                 padding: 60px 30px;
             }
 
+            .county-search-section {
+                padding: 70px 30px;
+            }
+
+            .county-search-section h2 {
+                font-size: 36px;
+            }
+
+            .search-subheading {
+                font-size: 16px;
+            }
+
+            .county-search-form {
+                flex-direction: column;
+                gap: 15px;
+                padding: 30px;
+            }
+
+            .search-field {
+                width: 100%;
+                min-width: auto;
+            }
+
+            .search-btn-orange {
+                width: 100%;
+            }
+
+            .filter-btn {
+                padding: 9px 15px;
+                font-size: 14px;
+            }
+
             .badges-section {
                 padding: 40px 30px;
                 gap: 30px;
@@ -239,6 +271,157 @@
             .badge-label {
                 font-size: 18px;
             }
+        }
+
+        /* Section 1.5: County Search & Filters */
+        .county-search-section {
+            background-image: url('hunting-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 100px 50px;
+            width: 100%;
+            position: relative;
+        }
+
+        .county-search-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+
+        .search-content-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .county-search-section h2 {
+            font-size: 42px;
+            color: #ffffff;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .search-subheading {
+            font-size: 18px;
+            color: #f0f0f0;
+            text-align: center;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .county-filters {
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-label {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            padding: 10px 18px;
+            border: 2px solid #ffffff;
+            background-color: transparent;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover {
+            background-color: #F5A623;
+            border-color: #F5A623;
+            color: #ffffff;
+        }
+
+        .filter-btn:first-child {
+            background-color: #F5A623;
+            border-color: #F5A623;
+        }
+
+        .county-search-form {
+            display: flex;
+            gap: 20px;
+            align-items: flex-end;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 12px;
+            flex-wrap: wrap;
+        }
+
+        .search-field {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .search-field label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .search-input-field {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 15px;
+            background-color: #ffffff;
+            color: #333;
+            font-family: inherit;
+        }
+
+        .search-input-field:focus {
+            outline: none;
+            border-color: #F5A623;
+            box-shadow: 0 0 0 3px rgba(245, 166, 35, 0.1);
+        }
+
+        .search-btn-orange {
+            padding: 12px 40px;
+            background-color: #F5A623;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            height: fit-content;
+        }
+
+        .search-btn-orange:hover {
+            background-color: #E08C1A;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(245, 166, 35, 0.3);
         }
 
         /* Section 3: How It Works */
@@ -968,6 +1151,50 @@
                 padding: 40px 20px;
             }
 
+            .county-search-section {
+                padding: 50px 20px;
+            }
+
+            .county-search-section h2 {
+                font-size: 28px;
+                margin-bottom: 10px;
+            }
+
+            .search-subheading {
+                font-size: 15px;
+                margin-bottom: 30px;
+            }
+
+            .county-filters {
+                margin-bottom: 30px;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .filter-buttons {
+                gap: 8px;
+            }
+
+            .filter-btn {
+                padding: 8px 12px;
+                font-size: 13px;
+            }
+
+            .county-search-form {
+                flex-direction: column;
+                gap: 12px;
+                padding: 20px;
+            }
+
+            .search-field {
+                width: 100%;
+            }
+
+            .search-btn-orange {
+                width: 100%;
+                padding: 12px 20px;
+            }
+
             .badges-section {
                 padding: 40px 20px;
                 flex-direction: column;
@@ -1198,6 +1425,67 @@
                 <div class="placeholder-image">
                     Hand-drawn Illinois State Outline<br>(Placeholder Image)
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 1.5: County Search & Filters -->
+    <div class="county-search-section">
+        <div class="search-content-wrapper">
+            <h2>Find Hunting Opportunities by County</h2>
+            <p class="search-subheading">Explore verified outfitters, leases, and gear in your preferred Illinois county</p>
+
+            <!-- County Filters -->
+            <div class="county-filters">
+                <span class="filter-label">Popular Counties:</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn">All</button>
+                    <button class="filter-btn">Cook</button>
+                    <button class="filter-btn">DuPage</button>
+                    <button class="filter-btn">Will</button>
+                    <button class="filter-btn">Kane</button>
+                    <button class="filter-btn">Lake</button>
+                    <button class="filter-btn">McHenry</button>
+                    <button class="filter-btn">Kendall</button>
+                    <button class="filter-btn">Winnebago</button>
+                    <button class="filter-btn">Champaign</button>
+                    <button class="filter-btn">View All →</button>
+                </div>
+            </div>
+
+            <!-- Search Form -->
+            <div class="county-search-form">
+                <div class="search-field">
+                    <label>What are you looking for?</label>
+                    <input type="text" placeholder="Leases, guided hunts, gear..." class="search-input-field">
+                </div>
+                <div class="search-field">
+                    <label>County</label>
+                    <select class="search-input-field">
+                        <option>Select County</option>
+                        <option>Cook</option>
+                        <option>DuPage</option>
+                        <option>Will</option>
+                        <option>Kane</option>
+                        <option>Lake</option>
+                        <option>McHenry</option>
+                        <option>Kendall</option>
+                        <option>Winnebago</option>
+                        <option>Champaign</option>
+                        <option>All Counties</option>
+                    </select>
+                </div>
+                <div class="search-field">
+                    <label>Listing Type</label>
+                    <select class="search-input-field">
+                        <option>All Types</option>
+                        <option>Leases</option>
+                        <option>Guided Hunts</option>
+                        <option>Gear & Equipment</option>
+                        <option>Outfitters</option>
+                    </select>
+                </div>
+                <button class="search-btn-orange">Search</button>
             </div>
         </div>
     </div>
