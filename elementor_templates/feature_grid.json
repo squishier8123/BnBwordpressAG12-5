@@ -1,0 +1,529 @@
+{
+  "settings": {},
+  "elements": [
+    {
+      "id": "section_568c375e",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "0"
+        },
+        "columns_gap": {
+          "unit": "px",
+          "size": 20
+        },
+        "animation": "fadeInUp"
+      },
+      "elements": [
+        {
+          "id": "row_c25ba1bf",
+          "elType": "row",
+          "settings": {
+            "gap": "default",
+            "columns_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "column_941a9391",
+              "elType": "column",
+              "settings": {
+                "column_size": "33.33%",
+                "content_width": "full",
+                "background_color": "#F5F5F5",
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "20",
+                  "bottom": "30",
+                  "left": "20"
+                },
+                "text_align": "center",
+                "animation": "fadeInUp",
+                "animation_delay": "0.0"
+              },
+              "elements": [
+                {
+                  "id": "image_8c1c3c1b",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 4680,
+                      "url": "[IMAGE_ID_4680]"
+                    },
+                    "image_size": "full",
+                    "image_custom_dimension": {
+                      "width": "100%"
+                    },
+                    "link": {
+                      "url": ""
+                    },
+                    "align": "center",
+                    "caption": "",
+                    "alt": "Expert Guides",
+                    "title_text": "Expert Guides",
+                    "height": {
+                      "unit": "px",
+                      "size": 80
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "heading_f0ee60ce",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Expert Guides",
+                    "header_size": "h3",
+                    "align": "center",
+                    "text_color": "#333D29",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.4
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "text-editor_f9add1ad",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Years of experience hunting Illinois whitetail.</p>",
+                    "text_color": "#656D4A",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "10",
+                      "bottom": "0"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "column_2cb0ab15",
+              "elType": "column",
+              "settings": {
+                "column_size": "33.33%",
+                "content_width": "full",
+                "background_color": "#F5F5F5",
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "20",
+                  "bottom": "30",
+                  "left": "20"
+                },
+                "text_align": "center",
+                "animation": "fadeInUp",
+                "animation_delay": "0.15"
+              },
+              "elements": [
+                {
+                  "id": "image_f1ab5490",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 4681,
+                      "url": "[IMAGE_ID_4681]"
+                    },
+                    "image_size": "full",
+                    "image_custom_dimension": {
+                      "width": "100%"
+                    },
+                    "link": {
+                      "url": ""
+                    },
+                    "align": "center",
+                    "caption": "",
+                    "alt": "Premium Gear",
+                    "title_text": "Premium Gear",
+                    "height": {
+                      "unit": "px",
+                      "size": 80
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "heading_58e467a6",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Premium Gear",
+                    "header_size": "h3",
+                    "align": "center",
+                    "text_color": "#333D29",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.4
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "text-editor_9f4c8b1f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Top-quality archery equipment and supplies.</p>",
+                    "text_color": "#656D4A",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "10",
+                      "bottom": "0"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "column_4556a40e",
+              "elType": "column",
+              "settings": {
+                "column_size": "33.33%",
+                "content_width": "full",
+                "background_color": "#F5F5F5",
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "20",
+                  "bottom": "30",
+                  "left": "20"
+                },
+                "text_align": "center",
+                "animation": "fadeInUp",
+                "animation_delay": "0.3"
+              },
+              "elements": [
+                {
+                  "id": "image_d09dfdb0",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 4682,
+                      "url": "[IMAGE_ID_4682]"
+                    },
+                    "image_size": "full",
+                    "image_custom_dimension": {
+                      "width": "100%"
+                    },
+                    "link": {
+                      "url": ""
+                    },
+                    "align": "center",
+                    "caption": "",
+                    "alt": "Community",
+                    "title_text": "Community",
+                    "height": {
+                      "unit": "px",
+                      "size": 80
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "heading_cccb2654",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Community",
+                    "header_size": "h3",
+                    "align": "center",
+                    "text_color": "#333D29",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.4
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "text-editor_f9ff88e1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Connect with serious hunters across Illinois.</p>",
+                    "text_color": "#656D4A",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "10",
+                      "bottom": "0"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "column_83e31c71",
+              "elType": "column",
+              "settings": {
+                "column_size": "33.33%",
+                "content_width": "full",
+                "background_color": "#F5F5F5",
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "20",
+                  "bottom": "30",
+                  "left": "20"
+                },
+                "text_align": "center",
+                "animation": "fadeInUp",
+                "animation_delay": "0.0"
+              },
+              "elements": [
+                {
+                  "id": "heading_ac4637c5",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Fair Pricing",
+                    "header_size": "h3",
+                    "align": "center",
+                    "text_color": "#333D29",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.4
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "text-editor_73c99592",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Transparent pricing with no hidden fees.</p>",
+                    "text_color": "#656D4A",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "10",
+                      "bottom": "0"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "column_3f71c0dd",
+              "elType": "column",
+              "settings": {
+                "column_size": "33.33%",
+                "content_width": "full",
+                "background_color": "#F5F5F5",
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "20",
+                  "bottom": "30",
+                  "left": "20"
+                },
+                "text_align": "center",
+                "animation": "fadeInUp",
+                "animation_delay": "0.15"
+              },
+              "elements": [
+                {
+                  "id": "heading_377c281a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Fast Shipping",
+                    "header_size": "h3",
+                    "align": "center",
+                    "text_color": "#333D29",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.4
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "text-editor_15e474a4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Quick delivery on all gear orders.</p>",
+                    "text_color": "#656D4A",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "10",
+                      "bottom": "0"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "column_e01c8cac",
+              "elType": "column",
+              "settings": {
+                "column_size": "33.33%",
+                "content_width": "full",
+                "background_color": "#F5F5F5",
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "20",
+                  "bottom": "30",
+                  "left": "20"
+                },
+                "text_align": "center",
+                "animation": "fadeInUp",
+                "animation_delay": "0.3"
+              },
+              "elements": [
+                {
+                  "id": "heading_58520ad3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Expert Support",
+                    "header_size": "h3",
+                    "align": "center",
+                    "text_color": "#333D29",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.4
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "text-editor_d737b0f9",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Dedicated customer success team.</p>",
+                    "text_color": "#656D4A",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "10",
+                      "bottom": "0"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
