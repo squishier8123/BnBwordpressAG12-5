@@ -750,7 +750,7 @@ npx playwright test qa_test_suite.spec.ts --reporter=html
 ---
 
 **Report Generated:** ${timestamp}
-**Test Framework:** Playwright v${require('@playwright/test').version || '1.40+'}
+**Test Framework:** Playwright v1.40+
 **Status:** Tests Completed Successfully
 `;
 

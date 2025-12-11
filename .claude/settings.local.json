@@ -135,7 +135,17 @@
       "Bash(timeout 15 curl:*)",
       "Bash(wp:*)",
       "WebFetch(domain:listeo.co)",
-      "Bash(done)"
+      "Bash(done)",
+      "mcp__respira-wordpress__wordpress_get_site_context",
+      "mcp__respira-wordpress__wordpress_list_custom_posts",
+      "mcp__respira-wordpress__wordpress_list_users",
+      "mcp__respira-wordpress__wordpress_get_user",
+      "mcp__playwright-official__browser_navigate",
+      "mcp__playwright-official__browser_install",
+      "Bash(grep:*)",
+      "Bash(tee:*)",
+      "Bash(sudo -n npx playwright install-deps:*)",
+      "Bash(dpkg:*)"
     ],
     "deny": [],
     "ask": []
